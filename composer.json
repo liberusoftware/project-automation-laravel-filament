@@ -14,16 +14,6 @@
     "repositories": [
         {
             "type": "path",
-            "url": "modules/module-manager",
-            "options": {
-                "symlink": false,
-                "versions": {
-                    "liberusoftware/module-manager": "1.4.2"
-                }
-            }
-        },
-        {
-            "type": "path",
             "url": "modules/module-automation-*",
             "options": {
                 "symlink": false,
@@ -321,8 +311,6 @@
                     "liberusoftware/automation-voice-filament": "1.0.0",
                     "liberusoftware/automation-voice-livewire": "1.0.0",
                     "liberusoftware/automation-voice": "1.0.0",
-                    "liberusoftware/module-manager-filament": "1.4.1",
-                    "liberusoftware/module-manager": "1.4.2",
                     "liberusoftware/notifications": "1.4.1",
                     "liberusoftware/observability": "1.4.1",
                     "liberusoftware/organizations-teams-filament": "1.4.1",
@@ -344,6 +332,8 @@
                 }
             },
             "exclude": [
+                "liberusoftware/module-manager",
+                "liberusoftware/module-manager-filament",
                 "liberusoftware/tenancy"
             ]
         },
@@ -474,8 +464,8 @@
         "liberusoftware/localization-core": "^1.0",
         "liberusoftware/localization-core-livewire": "^1.0",
         "liberusoftware/localization-mymemory": "^1.0",
-        "liberusoftware/module-manager": "^1.0",
-        "liberusoftware/module-manager-filament": "^1.1",
+        "liberusoftware/module-manager": "^1.9",
+        "liberusoftware/module-manager-filament": "^1.11",
         "liberusoftware/notifications": "^1.0",
         "liberusoftware/observability": "^1.0",
         "liberusoftware/organizations-teams": "^1.0",
