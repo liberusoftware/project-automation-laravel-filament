@@ -39,6 +39,14 @@
     "source_tree": "f9d48e56c7863aeb44e7f5b5101d07db28e5684f",
     "version": "1.5.7"
   },
+  "liberusoftware/application": {
+    "path": "modules/application",
+    "reference": "4031feeda93b25d97f271578f29f31ae7beac35b",
+    "repository": "https://github.com/liberusoftware/module-application",
+    "source_signature": "edaf383924606e4b68df5f1b3daf10d4b3ebdf29c1dd6c639fd368f4d84682ca",
+    "source_tree": "fbd8d99cc3ac3f41f440f83751eea0314d69a2b8",
+    "version": "1.10.0"
+  },
   "liberusoftware/audit": {
     "path": "modules/audit",
     "reference": "f92d8899d6726c61ed5c8c45fc34248fe357f02c",
@@ -654,6 +662,14 @@
     "source_signature": "ab6c677638897cd78fe7f63c07cad59c284b670aa767a2cfca0e4ce84422ce3f",
     "source_tree": "18be6aa85fb5616e94c6b177d7f3f217c242eae9",
     "version": "1.9.0"
+  },
+  "liberusoftware/theme-dark": {
+    "path": "themes/dark",
+    "reference": "abc6fa5c8a815b64df3b37a8eecf55cb6bd4c5ee",
+    "repository": "https://github.com/liberusoftware/theme-dark",
+    "source_signature": "d1c433d600b3105e715b6b143d43cc26fef00231ae179e21b009573b05defe13",
+    "source_tree": "9f6068f5ca8da1331ceb882ec20fb7b434fefc19",
+    "version": "1.10.0"
   },
   "liberusoftware/theme-default": {
     "path": "themes/default",
