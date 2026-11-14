@@ -3,7 +3,7 @@
   "name": "module-automation-data-processing",
   "display_name": "Data Processing",
   "description": "Provider-neutral data-processing capability for Liberu Automation.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "capability",
   "provider": "Liberu\\Modules\\Automation\\DataProcessing\\DataProcessingServiceProvider",
   "requires": {

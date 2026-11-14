@@ -3,7 +3,7 @@
   "name": "module-automation-prompt-registry-api",
   "display_name": "PromptRegistry API",
   "description": "HTTP presentation adapter for module-automation-prompt-registry.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\PromptRegistry\\Api\\PromptRegistryApiServiceProvider",
   "requires": {
@@ -23,4 +23,3 @@
     "Idempotent writes"
   ]
 }
-

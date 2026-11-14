@@ -3,7 +3,7 @@
   "name": "module-automation-prompt-registry",
   "display_name": "Prompt Registry",
   "description": "Provider-neutral prompt-registry capability for Liberu Automation.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "capability",
   "provider": "Liberu\\Modules\\Automation\\PromptRegistry\\PromptRegistryServiceProvider",
   "requires": {

@@ -3,7 +3,7 @@
   "name": "module-automation-prompt-registry-livewire",
   "display_name": "PromptRegistry Livewire",
   "description": "Livewire 4 presentation adapter for module-automation-prompt-registry.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\PromptRegistry\\Livewire\\PromptRegistryLivewireServiceProvider",
   "requires": {
@@ -22,4 +22,3 @@
     "Team-scoped interactive state"
   ]
 }
-

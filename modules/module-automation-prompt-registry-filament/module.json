@@ -3,7 +3,7 @@
   "name": "module-automation-prompt-registry-filament",
   "display_name": "PromptRegistry Filament",
   "description": "Filament 5 presentation adapter for module-automation-prompt-registry.",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\PromptRegistry\\Filament\\PromptRegistryFilamentServiceProvider",
   "requires": {
@@ -22,4 +22,3 @@
     "Team-scoped resource page"
   ]
 }
-

@@ -3,7 +3,7 @@
   "name": "module-automation-voice-api",
   "display_name": "Voice API",
   "description": "HTTP presentation adapter for module-automation-voice.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Voice\\Api\\VoiceApiServiceProvider",
   "requires": {
@@ -23,4 +23,3 @@
     "Idempotent writes"
   ]
 }
-

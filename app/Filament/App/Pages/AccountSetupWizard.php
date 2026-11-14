@@ -60,7 +60,7 @@ class AccountSetupWizard extends Page
         $this->form->fill([
             'name' => $user->name,
             'team_name' => $team->getAttribute('name'),
-            'ai_provider' => $this->existingConnection()?->getAttribute('provider'),
+            'ai_provider' => $this->existingConnection($team)?->getAttribute('provider'),
         ]);
     }
 
@@ -182,15 +182,11 @@ class AccountSetupWizard extends Page
         return auth()->check();
     }
 
-    private function existingConnection(): ?IntegrationConnection
+    private function existingConnection(Team $team): ?IntegrationConnection
     {
-        if (! $this->team instanceof Team) {
-            return null;
-        }
-
         return IntegrationConnection::query()
             ->where('scope_type', Team::class)
-            ->where('scope_id', (string) $this->team->getKey())
+            ->where('scope_id', (string) $team->getKey())
             ->whereIn('provider', ['openai', 'anthropic'])
             ->latest('updated_at')
             ->first();

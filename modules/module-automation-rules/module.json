@@ -3,7 +3,7 @@
   "name": "module-automation-rules",
   "display_name": "Rules",
   "description": "Provider-neutral rules capability for Liberu Automation.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "capability",
   "provider": "Liberu\\Modules\\Automation\\Rules\\RulesServiceProvider",
   "requires": {

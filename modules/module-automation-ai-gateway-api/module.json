@@ -3,7 +3,7 @@
   "name": "module-automation-ai-gateway-api",
   "display_name": "AiGateway API",
   "description": "HTTP presentation adapter for module-automation-ai-gateway.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\AiGateway\\Api\\AiGatewayApiServiceProvider",
   "requires": {
@@ -23,4 +23,3 @@
     "Idempotent writes"
   ]
 }
-

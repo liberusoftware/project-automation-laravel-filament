@@ -3,7 +3,7 @@
   "name": "module-automation-data-processing-api",
   "display_name": "DataProcessing API",
   "description": "HTTP presentation adapter for module-automation-data-processing.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\DataProcessing\\Api\\DataProcessingApiServiceProvider",
   "requires": {
@@ -23,4 +23,3 @@
     "Idempotent writes"
   ]
 }
-

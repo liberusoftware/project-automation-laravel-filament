@@ -3,7 +3,7 @@
   "name": "module-automation-connectors-filament",
   "display_name": "Connectors Filament",
   "description": "Filament 5 presentation adapter for module-automation-connectors.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Connectors\\Filament\\ConnectorsFilamentServiceProvider",
   "requires": {
@@ -22,4 +22,3 @@
     "Team-scoped resource page"
   ]
 }
-

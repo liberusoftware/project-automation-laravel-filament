@@ -3,7 +3,7 @@
   "name": "module-automation-video-api",
   "display_name": "Video API",
   "description": "HTTP presentation adapter for module-automation-video.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Video\\Api\\VideoApiServiceProvider",
   "requires": {
@@ -23,4 +23,3 @@
     "Idempotent writes"
   ]
 }
-

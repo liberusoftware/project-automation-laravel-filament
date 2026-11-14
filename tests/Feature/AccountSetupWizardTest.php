@@ -12,6 +12,41 @@ use Livewire\Livewire;
 
 uses(RefreshDatabase::class);
 
+it('rejects account setup without a signed in user', function () {
+    Livewire::test(AccountSetupWizard::class)->assertNotFound();
+});
+
+it('rejects account setup for a team the user does not belong to', function () {
+    $user = User::factory()->create();
+    $otherTeam = Team::factory()->create();
+    $this->actingAs($user);
+    Filament::setCurrentPanel(Filament::getPanel('app'));
+    Filament::setTenant($otherTeam);
+
+    Livewire::test(AccountSetupWizard::class)->assertNotFound();
+});
+
+it('prefills the existing AI provider without exposing its encrypted key', function () {
+    $user = User::factory()->create();
+    $team = Team::factory()->create(['user_id' => $user->id]);
+    $user->forceFill(['current_team_id' => $team->id])->save();
+    IntegrationConnection::query()->create([
+        'scope_type' => Team::class,
+        'scope_id' => (string) $team->id,
+        'provider' => 'anthropic',
+        'credentials' => app(CredentialVault::class)->seal(['api_key' => 'private-api-key']),
+        'capabilities' => ['text-generation'],
+        'status' => 'ready',
+    ]);
+    $this->actingAs($user);
+    Filament::setCurrentPanel(Filament::getPanel('app'));
+
+    Livewire::test(AccountSetupWizard::class)
+        ->assertSet('data.ai_provider', 'anthropic')
+        ->assertSet('data.ai_api_key', null)
+        ->assertDontSee('private-api-key');
+});
+
 it('saves team setup and encrypts the selected provider key', function () {
     $user = User::factory()->create();
     $team = Team::factory()->create(['user_id' => $user->id]);

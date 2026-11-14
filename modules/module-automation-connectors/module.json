@@ -3,7 +3,7 @@
   "name": "module-automation-connectors",
   "display_name": "Connectors",
   "description": "Provider-neutral connectors capability for Liberu Automation.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "capability",
   "provider": "Liberu\\Modules\\Automation\\Connectors\\ConnectorsServiceProvider",
   "requires": {

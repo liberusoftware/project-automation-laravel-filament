@@ -3,7 +3,7 @@
   "name": "module-automation-image-api",
   "display_name": "Image API",
   "description": "HTTP presentation adapter for module-automation-image.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Image\\Api\\ImageApiServiceProvider",
   "requires": {
@@ -23,4 +23,3 @@
     "Idempotent writes"
   ]
 }
-

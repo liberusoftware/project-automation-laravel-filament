@@ -3,7 +3,7 @@
   "name": "module-automation-ai-gateway",
   "display_name": "Ai Gateway",
   "description": "Provider-neutral ai-gateway capability for Liberu Automation.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "capability",
   "provider": "Liberu\\Modules\\Automation\\AiGateway\\AiGatewayServiceProvider",
   "requires": {

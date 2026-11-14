@@ -3,7 +3,7 @@
   "name": "module-automation-rules-api",
   "display_name": "Rules API",
   "description": "HTTP presentation adapter for module-automation-rules.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Rules\\Api\\RulesApiServiceProvider",
   "requires": {
@@ -23,4 +23,3 @@
     "Idempotent writes"
   ]
 }
-

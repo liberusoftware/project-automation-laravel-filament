@@ -3,7 +3,7 @@
   "name": "module-automation-evaluation-api",
   "display_name": "Evaluation API",
   "description": "HTTP presentation adapter for module-automation-evaluation.",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Evaluation\\Api\\EvaluationApiServiceProvider",
   "requires": {
@@ -23,4 +23,3 @@
     "Idempotent writes"
   ]
 }
-
