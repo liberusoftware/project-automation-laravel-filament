@@ -36,7 +36,7 @@ final class ResourceList extends Component
         ];
 
         if ($this->editingId === null) {
-            ApprovalsResource::query()->create(['team_id' => $teamId, ...$attributes]);
+            ApprovalsResource::query()->create(['team_id' => $teamId, 'status' => $this->status, ...$attributes]);
         } else {
             $this->query()->findOrFail($this->editingId)->update($attributes);
         }
@@ -62,7 +62,7 @@ final class ResourceList extends Component
         }
     }
 
-    public function transition(string $id, string $status): void
+    public function transitionStatus(string $id, string $status): void
     {
         $teamId = $this->teamId();
         abort_if($teamId === null, 403);

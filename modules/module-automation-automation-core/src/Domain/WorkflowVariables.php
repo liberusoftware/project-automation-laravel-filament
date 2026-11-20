@@ -27,9 +27,6 @@ final readonly class WorkflowVariables
             if (! is_string($name) || trim($name) === '' || str_contains($name, '.')) {
                 throw new InvalidArgumentException('Workflow variable names must be non-empty dot-free strings.');
             }
-            if (isset($schema[$name]) && ! is_array($schema[$name])) {
-                throw new InvalidArgumentException("Workflow variable schema is invalid: {$name}");
-            }
             $expected = $schema[$name]['type'] ?? null;
             if ($expected !== null && ! self::matchesType($value, (string) $expected)) {
                 throw new InvalidArgumentException("Workflow variable {$name} has an invalid type.");

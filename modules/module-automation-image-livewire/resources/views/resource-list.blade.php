@@ -15,19 +15,19 @@
             <li wire:key="{{ $resource->getKey() }}">
                 {{ $resource->name }} <span>{{ $resource->status }}</span>
                 @if ($resource->status === 'draft')
-                    <button type="button" wire:click="transition('{{ $resource->getKey() }}', 'active')">Activate</button>
-                    <button type="button" wire:click="transition('{{ $resource->getKey() }}', 'cancelled')">Cancel</button>
+                    <button type="button" wire:click="transitionStatus('{{ $resource->getKey() }}', 'active')">Activate</button>
+                    <button type="button" wire:click="transitionStatus('{{ $resource->getKey() }}', 'cancelled')">Cancel</button>
                 @elseif ($resource->status === 'active')
-                    <button type="button" wire:click="transition('{{ $resource->getKey() }}', 'paused')">Pause</button>
-                    <button type="button" wire:click="transition('{{ $resource->getKey() }}', 'completed')">Complete</button>
-                    <button type="button" wire:click="transition('{{ $resource->getKey() }}', 'failed')">Fail</button>
-                    <button type="button" wire:click="transition('{{ $resource->getKey() }}', 'cancelled')">Cancel</button>
+                    <button type="button" wire:click="transitionStatus('{{ $resource->getKey() }}', 'paused')">Pause</button>
+                    <button type="button" wire:click="transitionStatus('{{ $resource->getKey() }}', 'completed')">Complete</button>
+                    <button type="button" wire:click="transitionStatus('{{ $resource->getKey() }}', 'failed')">Fail</button>
+                    <button type="button" wire:click="transitionStatus('{{ $resource->getKey() }}', 'cancelled')">Cancel</button>
                 @elseif ($resource->status === 'paused')
-                    <button type="button" wire:click="transition('{{ $resource->getKey() }}', 'active')">Resume</button>
-                    <button type="button" wire:click="transition('{{ $resource->getKey() }}', 'cancelled')">Cancel</button>
+                    <button type="button" wire:click="transitionStatus('{{ $resource->getKey() }}', 'active')">Resume</button>
+                    <button type="button" wire:click="transitionStatus('{{ $resource->getKey() }}', 'cancelled')">Cancel</button>
                 @elseif ($resource->status === 'failed')
-                    <button type="button" wire:click="transition('{{ $resource->getKey() }}', 'active')">Retry</button>
-                    <button type="button" wire:click="transition('{{ $resource->getKey() }}', 'cancelled')">Cancel</button>
+                    <button type="button" wire:click="transitionStatus('{{ $resource->getKey() }}', 'active')">Retry</button>
+                    <button type="button" wire:click="transitionStatus('{{ $resource->getKey() }}', 'cancelled')">Cancel</button>
                 @endif
                 <button type="button" wire:click="edit('{{ $resource->getKey() }}')">Edit</button>
                 <button type="button" wire:click="delete('{{ $resource->getKey() }}')">Delete</button>

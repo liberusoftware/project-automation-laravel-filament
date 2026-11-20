@@ -14,12 +14,36 @@
         <testsuite name="Architecture">
             <directory>tests/Architecture</directory>
         </testsuite>
+        <testsuite name="Modules">
+            <directory>modules/*/tests</directory>
+            <exclude>modules/activity-comments/tests</exclude>
+            <exclude>modules/api-access/tests</exclude>
+            <exclude>modules/currency-context/tests</exclude>
+            <exclude>modules/feature-flags/tests</exclude>
+            <exclude>modules/identity-core-filament/tests</exclude>
+            <exclude>modules/identity-socialstream/tests</exclude>
+            <exclude>modules/integrations/tests</exclude>
+            <exclude>modules/localization-core/tests</exclude>
+            <exclude>modules/localization-core-livewire/tests</exclude>
+            <exclude>modules/module-manager-filament/tests</exclude>
+            <exclude>modules/observability/tests</exclude>
+            <exclude>modules/organizations-teams/tests</exclude>
+            <exclude>modules/organizations-teams-filament/tests</exclude>
+            <exclude>modules/roles-permissions/tests</exclude>
+            <exclude>modules/scheduler-queues/tests</exclude>
+            <exclude>modules/search/tests</exclude>
+            <exclude>modules/settings-filament/tests</exclude>
+            <exclude>modules/theme-support/tests</exclude>
+        </testsuite>
     </testsuites>
     <source>
         <include>
             <directory>app</directory>
             <directory>modules/*/src</directory>
         </include>
+        <exclude>
+            <directory>modules/*/src/Legacy</directory>
+        </exclude>
     </source>
     <php>
         <env name="APP_ENV" value="testing"/>
