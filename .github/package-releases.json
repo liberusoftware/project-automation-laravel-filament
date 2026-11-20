@@ -1,11 +1,11 @@
 {
   "liberusoftware/activity-comments": {
     "path": "modules/activity-comments",
-    "reference": "e8ec0f8ba6dcb8194ac959cad72d3dfaac6eb970",
+    "reference": "55c2809752f8d06b50b11eb705e4531f197cec47",
     "repository": "https://github.com/liberusoftware/module-activity-comments",
-    "source_signature": "4a322050f76af41eb4aaf57ed2c26d6e94f6664abd4a9af04a0b733cd5c2ab93",
-    "source_tree": "1fd686264414863bfede1d809279b4ca3e529570",
-    "version": "1.4.14"
+    "source_signature": "c828b1c68c9dccb3f0002333946336a4fc91e790a380fa70f50304ef037e20fa",
+    "source_tree": "9c0e807f82bd5f3976d517ca73755b0ee495a960",
+    "version": "1.4.15"
   },
   "liberusoftware/analytics-core": {
     "path": "modules/analytics-core",
@@ -41,19 +41,19 @@
   },
   "liberusoftware/application": {
     "path": "modules/application",
-    "reference": "4031feeda93b25d97f271578f29f31ae7beac35b",
+    "reference": "1509d3989556547ee7be3e5dcbd80d898af1144d",
     "repository": "https://github.com/liberusoftware/module-application",
-    "source_signature": "edaf383924606e4b68df5f1b3daf10d4b3ebdf29c1dd6c639fd368f4d84682ca",
-    "source_tree": "fbd8d99cc3ac3f41f440f83751eea0314d69a2b8",
-    "version": "1.10.0"
+    "source_signature": "1f75e80b1376dcbb81e09ff1302ddef591f2b825d459a9391cdbf87500b053b8",
+    "source_tree": "d6200f7dfc40e09d888558af1a8f61c3c9d5806e",
+    "version": "1.10.1"
   },
   "liberusoftware/audit": {
     "path": "modules/audit",
-    "reference": "f92d8899d6726c61ed5c8c45fc34248fe357f02c",
+    "reference": "a2a10e80311af78bf697ee6c710ec6580b07f778",
     "repository": "https://github.com/liberusoftware/module-audit",
-    "source_signature": "8510f8a728ef0d8bb72e019eb5125fe51955a87ab5996c9d39cee85a88c36a7b",
-    "source_tree": "64f9c7ab4724ee795f602608f00c0c3bdccb2158",
-    "version": "1.9.4"
+    "source_signature": "9bc2bff49be38aa4a4be36212703307bc6ead2dfe13b68e6fe8d38f9806e9b97",
+    "source_tree": "893b170accfedd928cd014b3544f60acb7ea5877",
+    "version": "1.10.0"
   },
   "liberusoftware/automation-ai-gateway": {
     "path": "modules/module-automation-ai-gateway",
@@ -81,11 +81,11 @@
   },
   "liberusoftware/automation-ai-gateway-livewire": {
     "path": "modules/module-automation-ai-gateway-livewire",
-    "reference": "2705cb928ca7f79ff0f0f2d5b7de40afbbbb498f",
+    "reference": "fcf798d93aa65552769cb841072020d7ea9ce23c",
     "repository": "https://github.com/liberusoftware/module-automation-ai-gateway-livewire",
-    "source_signature": "f482f3183f7a7f35d93ae604990a7b54305a5f516f229b42b19ae3a40c93191a",
-    "source_tree": "d7e0b0be89b9d588e000338e86543ce71a3fee24",
-    "version": "1.0.8"
+    "source_signature": "0044db6b16686200076eeff03138ada41a419c0757bd3f15d28c22e35c271a12",
+    "source_tree": "a51f5d6504a309f1eb58b6b702d3223c4fffc9bb",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-approvals": {
     "path": "modules/module-automation-approvals",
@@ -113,19 +113,19 @@
   },
   "liberusoftware/automation-approvals-livewire": {
     "path": "modules/module-automation-approvals-livewire",
-    "reference": "66e17c4e0c755d9715969c59131018e93b9861f2",
+    "reference": "af0a285920c7c5ce630f134bebe68ab1ea899e7d",
     "repository": "https://github.com/liberusoftware/module-automation-approvals-livewire",
-    "source_signature": "5020df903ec85352f7d8a58c125b6d8bfbb8a3d5c5e181d784ec6c37bc2fa627",
-    "source_tree": "19be94725526254d9865a3e7544340ad2383f345",
-    "version": "1.0.8"
+    "source_signature": "f78438cadf3a66f786ea91f56c70723cf1a94f3c73cc9ffa8c4858ac1bda9945",
+    "source_tree": "928dc9272586eb0168b94d1fe45ba11bf330fcd4",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-automation-core": {
     "path": "modules/module-automation-automation-core",
-    "reference": "5f83b19ef5dd8d88336c43d2b0db1d014e3242d7",
+    "reference": "378a72b3c8202cd8aab94e237f78efc4d1fd2c96",
     "repository": "https://github.com/liberusoftware/module-automation-automation-core",
-    "source_signature": "41a8609a55a5ee83a46fe6e42f5c02f7c85ebcc49152dcdd0b05c4b5a588f454",
-    "source_tree": "f62be522e05569f6b0f6e3666c1250d8d83b5408",
-    "version": "1.0.8"
+    "source_signature": "1347bf4840c7977d3ec8cfd8c61532ac29338aa8a5a02688874e9fd92b0c602b",
+    "source_tree": "fdd8cb94e25e918c347bb4017047271679f987fe",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-automation-core-api": {
     "path": "modules/module-automation-automation-core-api",
@@ -145,11 +145,11 @@
   },
   "liberusoftware/automation-automation-core-livewire": {
     "path": "modules/module-automation-automation-core-livewire",
-    "reference": "97e672f94e2f4de8f158ee164ad27e615cb78ab5",
+    "reference": "8a3374a6737c0d19ed370e5aa254f9dae4e38661",
     "repository": "https://github.com/liberusoftware/module-automation-automation-core-livewire",
-    "source_signature": "ffcdfb5c861005f7d4382c164417baacd92d5eadd5730865fef4fcf99588c350",
-    "source_tree": "f5713b78d826fa6f25fcb3484cfbac9e4e0620e8",
-    "version": "1.0.8"
+    "source_signature": "6ca94831a23bd2be150aec2367eed90bdb1a176c9a5ad4e7a4d22cfd245bda69",
+    "source_tree": "630b54e5b6e67451e334cf23d971b77bcc9e6455",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-connectors": {
     "path": "modules/module-automation-connectors",
@@ -177,11 +177,11 @@
   },
   "liberusoftware/automation-connectors-livewire": {
     "path": "modules/module-automation-connectors-livewire",
-    "reference": "e88b467f302f4fcbde3ac67d18939d1f2528d445",
+    "reference": "b0453e1051afa44edcaf0d29a39031cf0f74d1dd",
     "repository": "https://github.com/liberusoftware/module-automation-connectors-livewire",
-    "source_signature": "9484cadf7c65d03ce8d4d7bc0ff7436a2cef7c8daa1fd83df013834ef10b8bc4",
-    "source_tree": "26aa37011db1098a14cd76756fd3575aee6b62a6",
-    "version": "1.0.8"
+    "source_signature": "d11235e013a21edfbc1f0f5e2125f942694cef678be7c1537cf7c3de15e4e515",
+    "source_tree": "dc396f0ebe7662c48f4e255054724c7eeb0537be",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-data-processing": {
     "path": "modules/module-automation-data-processing",
@@ -209,11 +209,11 @@
   },
   "liberusoftware/automation-data-processing-livewire": {
     "path": "modules/module-automation-data-processing-livewire",
-    "reference": "3340859acdf63bb0b502ebed3a1635453cedf343",
+    "reference": "9c05a25231ed5c157af38ecdd0984fbdc40df0c1",
     "repository": "https://github.com/liberusoftware/module-automation-data-processing-livewire",
-    "source_signature": "1d86bb82749a29c92cadd23d96db3cce040e0c8a223dc07f032d527e70ce3b94",
-    "source_tree": "75725ba8e8c59fc1a3263a0101a8c67900b33bf6",
-    "version": "1.0.8"
+    "source_signature": "7d0bf97a6264686570799dee2c9aa6eee0b28b8803ac10b0232bc30775a23840",
+    "source_tree": "e8a9146f5e29300ff8369de61dfc193370c92554",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-evaluation": {
     "path": "modules/module-automation-evaluation",
@@ -241,11 +241,11 @@
   },
   "liberusoftware/automation-evaluation-livewire": {
     "path": "modules/module-automation-evaluation-livewire",
-    "reference": "f1f4d6401f058d27d4822ac6f9ab451cf6791a42",
+    "reference": "b73809f507eaf46d23dc31e8ff006ce7a3bc08d7",
     "repository": "https://github.com/liberusoftware/module-automation-evaluation-livewire",
-    "source_signature": "a27de394662466e6baf8ddd9c18233d0641e6db0754f93ea9ca94b59c4b11a69",
-    "source_tree": "0a83479bac1b14ed538496a4452fee11ff050cf0",
-    "version": "1.0.8"
+    "source_signature": "610ee4d218d36b27d0b08dd370b65f38c554afcfe78161c2ef04e53e81e17040",
+    "source_tree": "dbd698634882bb1bbe9933e51edfc2e0ba734e07",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-image": {
     "path": "modules/module-automation-image",
@@ -273,11 +273,11 @@
   },
   "liberusoftware/automation-image-livewire": {
     "path": "modules/module-automation-image-livewire",
-    "reference": "69ec5c070516ed27ef46f10b8a235224ae86c05a",
+    "reference": "e24481040cc7a28a94bfa27b2aec9660ce9d0745",
     "repository": "https://github.com/liberusoftware/module-automation-image-livewire",
-    "source_signature": "70c73279fc566ffa8af6566dcda8692d5d8c4b3eb2f2160f38dda231d59b0add",
-    "source_tree": "5102f80778cbc10eeb12501840d714051529656d",
-    "version": "1.0.8"
+    "source_signature": "65c50c8e2e65e5c2af6c279cda43879353368d784054d1cb05135b3de40edffd",
+    "source_tree": "98369ba8154f10b5dc7865ea3a27c0ec6cad7c5b",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-prompt-registry": {
     "path": "modules/module-automation-prompt-registry",
@@ -297,19 +297,19 @@
   },
   "liberusoftware/automation-prompt-registry-filament": {
     "path": "modules/module-automation-prompt-registry-filament",
-    "reference": "c5f03cb25150af26c169c2f27bdbc301dfdb3ff3",
+    "reference": "af39f96e66f56791ada23e46feb969da7a189a59",
     "repository": "https://github.com/liberusoftware/module-automation-prompt-registry-filament",
-    "source_signature": "421e560aa7be3ac38e2440d9fe96d100fe95616d1fcb587f8f24e91bf3d15457",
-    "source_tree": "b2cd0f7058596b709343a780f26078e307db75cd",
-    "version": "1.0.8"
+    "source_signature": "06a51c1894fe45b6085023961846d7cff07fbdcc357d6a1164ffae61b65940bf",
+    "source_tree": "0da99a2db934a1905e4be56bb3213cd2f7428c5f",
+    "version": "1.0.9"
   },
   "liberusoftware/automation-prompt-registry-livewire": {
     "path": "modules/module-automation-prompt-registry-livewire",
-    "reference": "a0951e3477764d5e747338d47f8855d9a7f89ae9",
+    "reference": "2989724c6e1e8d1205f5efbaa1f40d6b433946cb",
     "repository": "https://github.com/liberusoftware/module-automation-prompt-registry-livewire",
-    "source_signature": "2f4b2db37d52201fd5c65dad71d8e9b92f26e51d3f2e89dc34a3bec7db6456e7",
-    "source_tree": "c9b7d8665d47d9f171f8ffd93f4cb91657666c41",
-    "version": "1.0.8"
+    "source_signature": "8981f9b71919b9ba46c4d6eb613046173e4b9f38b95291ec2dca8f9f76d7a6a1",
+    "source_tree": "c5a4c63d09087dd87154c4d17966f319a9f4788c",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-rules": {
     "path": "modules/module-automation-rules",
@@ -329,19 +329,19 @@
   },
   "liberusoftware/automation-rules-filament": {
     "path": "modules/module-automation-rules-filament",
-    "reference": "cbbbc1670eb0d580c1ff3411dbe6f126e6f94b44",
+    "reference": "9c11546c6cf6246ec731a392252929685e3b39fa",
     "repository": "https://github.com/liberusoftware/module-automation-rules-filament",
-    "source_signature": "a5abbda692dbcf12b322cd5630e11b9893aceabab124be4430baf42cbe4e4766",
-    "source_tree": "367d291e0e1cb0af5940ecbfdcfb22bd415fe966",
-    "version": "1.0.8"
+    "source_signature": "24f09346e2b019b5e900c4b1bd87fc8b899377c4b9f18147a2fc6ab2a22ec497",
+    "source_tree": "9a5cde584921a3e38a75b0df4ee9e75207344821",
+    "version": "1.0.9"
   },
   "liberusoftware/automation-rules-livewire": {
     "path": "modules/module-automation-rules-livewire",
-    "reference": "2254e67d581c3c6c9547a49e62d942dc07297924",
+    "reference": "c3b580ac3c9509a77edd0f99e1f009bb1b73b608",
     "repository": "https://github.com/liberusoftware/module-automation-rules-livewire",
-    "source_signature": "486567f90bd58eec1c491eaa4e851a9c5868d6c00a54a19876a14693073fc9ab",
-    "source_tree": "df6e4495ff9ce2688409b7a87ee9a00da76ec35f",
-    "version": "1.0.8"
+    "source_signature": "7cb4bcc99141ee663c6995f513cb55582b452c39070dea60655c17ee9734a8e4",
+    "source_tree": "1fdb3b9a584e1a8ba0bddb0a904249033f96307a",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-video": {
     "path": "modules/module-automation-video",
@@ -361,19 +361,19 @@
   },
   "liberusoftware/automation-video-filament": {
     "path": "modules/module-automation-video-filament",
-    "reference": "8d90924ad2b2d49e8adaa4432beec89343fb2026",
+    "reference": "dd57c1624c19ab9e57c37df2b80471d4a08fae5b",
     "repository": "https://github.com/liberusoftware/module-automation-video-filament",
-    "source_signature": "d00a84e8da8a4d375d53246fedd6939aff6ae28c445a3741f4c33d0018767509",
-    "source_tree": "8468dcc234822ee72b6ecfb0e5c37dfcc83eb4d9",
-    "version": "1.0.8"
+    "source_signature": "3096daed33594c2e7f81f16b42e3a979dbbbd0a69a032ad9f4c557ffebf3805f",
+    "source_tree": "f3a2f9cbd6b8d9a86890dcc37d8489f5daba9850",
+    "version": "1.0.9"
   },
   "liberusoftware/automation-video-livewire": {
     "path": "modules/module-automation-video-livewire",
-    "reference": "001577a837be304d5a527550afdfe429c4378059",
+    "reference": "fed5a5257b1bf2d85077126f2ce31be5efd15689",
     "repository": "https://github.com/liberusoftware/module-automation-video-livewire",
-    "source_signature": "d16a94d49372b14dbc11452655fa5d4841ac3be5febf491c7825e31ee3d0ed16",
-    "source_tree": "d5be2708a209fe820374db93f6970d321f57e23e",
-    "version": "1.0.8"
+    "source_signature": "c5e97c744cad0400bd23a5cda64f06b49eead0549834218695d4ef285e42db5a",
+    "source_tree": "23348020fdc757aaa71b0de10705680a953c475f",
+    "version": "1.1.0"
   },
   "liberusoftware/automation-voice": {
     "path": "modules/module-automation-voice",
@@ -401,11 +401,11 @@
   },
   "liberusoftware/automation-voice-livewire": {
     "path": "modules/module-automation-voice-livewire",
-    "reference": "103b06412093cf49f107f1496c7b074011a102a5",
+    "reference": "e9405cbfe9e4f834fc44c66efc7837b7adc0a01c",
     "repository": "https://github.com/liberusoftware/module-automation-voice-livewire",
-    "source_signature": "f345e41da3fa904efa7bb2337c1df236bb9994d942c4d22b7d2f2424354e37ba",
-    "source_tree": "d177a7f7fb75d9f78b399f4288b78853c33e3dae",
-    "version": "1.0.8"
+    "source_signature": "1bb766fd32c8e3ebcaccaec26dcf285b292c41baefd5e78bd139e2ac1ee7aa43",
+    "source_tree": "b79c160ea954e5bfa2c3e3079d7640a52cd6aa8f",
+    "version": "1.1.0"
   },
   "liberusoftware/currency-context": {
     "path": "modules/currency-context",
@@ -417,19 +417,19 @@
   },
   "liberusoftware/developer-experience": {
     "path": "modules/developer-experience",
-    "reference": "7e7b4081adf7b6438f42056fde7acbff4ff4d6af",
+    "reference": "04874191560760712a1d93dc6b9bd45442691d3a",
     "repository": "https://github.com/liberusoftware/module-developer-experience",
-    "source_signature": "55f8e54a01374bcfe73894bd43850088b4caaf5415c143abe8f28d41d162f8e9",
-    "source_tree": "dce0754aa31d97d6f54ab98ccb6ea6ef53db3cef",
-    "version": "1.4.13"
+    "source_signature": "6a41f99af6c48b5aebb1c8c357026856d48cd658618a5e110bac897f83a974b6",
+    "source_tree": "8380579e03bbbf92c566dd241fc81990fd40d086",
+    "version": "1.4.14"
   },
   "liberusoftware/feature-flags": {
     "path": "modules/feature-flags",
-    "reference": "ac9959891cbce56cb62d76e3f0e8bed88fc829d8",
+    "reference": "716c2d80bd3e316f09c89b3f84c356dafcb7a3e6",
     "repository": "https://github.com/liberusoftware/module-feature-flags",
-    "source_signature": "a89d880fcbba5cef6511d7e848e7928baea81cb3aada451d21451aaf44e26f8e",
-    "source_tree": "135003e4147920d1e9bbcf1eb7eddc18d0571f7c",
-    "version": "1.4.13"
+    "source_signature": "4772d99405b9a787af0a6510fc8775936e5f053fa6bc9535b7a2a807e0c28bf4",
+    "source_tree": "a6b625c5f7f9879006bde1fd970d53c1f8d21b76",
+    "version": "1.4.14"
   },
   "liberusoftware/files-media": {
     "path": "modules/files-media",
@@ -457,11 +457,11 @@
   },
   "liberusoftware/identity-socialstream": {
     "path": "modules/identity-socialstream",
-    "reference": "e484188edcbcaf6ec395a2c7c91cac6989b3874e",
+    "reference": "6f1562d9e9dfbc0246446b11b6b5c7f5ef0d6c1d",
     "repository": "https://github.com/liberusoftware/module-identity-socialstream",
-    "source_signature": "2417d4ac4cfc1cb6a7163460c78d275caf70a3b42d376b0c0a045059f5880206",
-    "source_tree": "010c4420bb75f1faa95d1f3b2fa59a0b976a8a20",
-    "version": "1.8.1"
+    "source_signature": "8b828a435b9a61eddaf7f45b267c3af7bb5c005b4463376dc5a9e5b8d87bc65d",
+    "source_tree": "0b0a50b92e2b92ef37be3aed1c6a828d8ea9c438",
+    "version": "1.8.2"
   },
   "liberusoftware/import-export": {
     "path": "modules/import-export",
@@ -489,11 +489,11 @@
   },
   "liberusoftware/localization-core": {
     "path": "modules/localization-core",
-    "reference": "8295e5987b717216122ebd1b231af0b5536089a5",
+    "reference": "58ad01d917179b5b06e0a45e49314fb006738a16",
     "repository": "https://github.com/liberusoftware/module-localization-core",
-    "source_signature": "9197cb4e477a239a94dac562ba3f4b4b775ad022b115c3145424ac7a73a3a9fd",
-    "source_tree": "4848a2e8f44a4b4c0561519a49e8f93efb2ae913",
-    "version": "1.5.0"
+    "source_signature": "91f2d463299740d941487d5e1cc6bb91ff0981ba91df60e53d22c4bae7629fa0",
+    "source_tree": "4678ec90c509666e27685b0571638cea5531d7f5",
+    "version": "1.5.1"
   },
   "liberusoftware/localization-core-livewire": {
     "path": "modules/localization-core-livewire",
@@ -505,11 +505,83 @@
   },
   "liberusoftware/localization-mymemory": {
     "path": "modules/localization-mymemory",
-    "reference": "0c3f81705fd2a56d0715e47e7cdc1d04e9b21f92",
+    "reference": "1c453269cd2439f792b6d2e64238d91ffe91ce1a",
     "repository": "https://github.com/liberusoftware/module-localization-mymemory",
-    "source_signature": "b5703aec89f1cdc957985cda376d8f21283504968dfd67a7c18020fd7671ee12",
-    "source_tree": "e1d22894512f0441f3acdf139eea00e1fb334468",
-    "version": "1.5.0"
+    "source_signature": "93e9048d4132fa038d53a0240418243dd9dbbaaf788ed1851db97744cf16b22f",
+    "source_tree": "9656bb32a00c2164b2b57b7d6fc9b9c3dc41a0e0",
+    "version": "1.5.1"
+  },
+  "liberusoftware/module-liberu-business-workflow-reconciliation-filament": {
+    "path": "modules/liberu-business-workflow-reconciliation-filament",
+    "reference": "67077026fe92f1729755dd1dd372012a0c3ae97d",
+    "repository": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation-filament",
+    "source_signature": "deae63290588e7e7899af08bff1a22d1ae0ed7d4ac13aaee10e59198fe87f28b",
+    "source_tree": "910b9bc5ae074ed1172cb6d488897967cfefe916",
+    "version": "1.4.0"
+  },
+  "liberusoftware/module-liberu-business-workflow-reconciliation-livewire": {
+    "path": "modules/liberu-business-workflow-reconciliation-livewire",
+    "reference": "e700a303546529461f93df8ba5599443e5e46d8f",
+    "repository": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation-livewire",
+    "source_signature": "59c862ea190f9acd20d9cdd076f8847ed086e9cd887ddb63b699049a1a72641c",
+    "source_tree": "a17bf25dce3eebaa30920529b1e55418b81fe7ef",
+    "version": "1.4.0"
+  },
+  "liberusoftware/module-liberu-executive-insights-filament": {
+    "path": "modules/liberu-executive-insights-filament",
+    "reference": "15d3c0ac121409e891423f4175c955a5c952738f",
+    "repository": "https://github.com/liberusoftware/module-liberu-executive-insights-filament",
+    "source_signature": "2c6495eabebf82919acb8bb8a362ad38d768369239f39728dbac7967b4bcb1e9",
+    "source_tree": "ad4ac348efdc0e6998624214ca7714d0d68d94b7",
+    "version": "1.4.0"
+  },
+  "liberusoftware/module-liberu-executive-insights-livewire": {
+    "path": "modules/liberu-executive-insights-livewire",
+    "reference": "08ec619fa1af1632dfc826c7c4459442f13631c4",
+    "repository": "https://github.com/liberusoftware/module-liberu-executive-insights-livewire",
+    "source_signature": "63b2ae1f683a27ad745372b1493297a42708b505d563daf0eb9243ab2a5e0d02",
+    "source_tree": "205ce65759859f827d6cdd1d0a90ffa9485eadc1",
+    "version": "1.4.0"
+  },
+  "liberusoftware/module-liberu-platform-orchestration-filament": {
+    "path": "modules/liberu-platform-orchestration-filament",
+    "reference": "e6cd0c0d092c30fff0f6d0d6267091cca21caa15",
+    "repository": "https://github.com/liberusoftware/module-liberu-platform-orchestration-filament",
+    "source_signature": "dded57ebebf914bad0a499bc12e0e17a76b37aa83d89852765e23830a2fe7973",
+    "source_tree": "4c526f09b947dc975cd57caf35d560f69877361a",
+    "version": "1.3.0"
+  },
+  "liberusoftware/module-liberu-platform-orchestration-livewire": {
+    "path": "modules/liberu-platform-orchestration-livewire",
+    "reference": "e1c2b0000a8501f2c76c69f66f87951929bd10e5",
+    "repository": "https://github.com/liberusoftware/module-liberu-platform-orchestration-livewire",
+    "source_signature": "1984be0a5e78f697f98226b2257776c5671f3fb7cc3b014e5ca03e66aacc0794",
+    "source_tree": "8234ce5155b198039be3dc0231c3fb3ccfc705cb",
+    "version": "1.3.0"
+  },
+  "liberusoftware/module-liberu-revenue-and-care-orchestration": {
+    "path": "modules/liberu-revenue-and-care-orchestration",
+    "reference": "9b22992d7cb167de2a8a004a31e69ece51815eee",
+    "repository": "https://github.com/liberusoftware/module-liberu-revenue-and-care-orchestration",
+    "source_signature": "9f041f5bd66083c19c65e1469ba989b4cb119a0b724b3359e035b9f97a96e7cd",
+    "source_tree": "aadfa21e0a79344fea23ef65ec2768396a0c4e35",
+    "version": "1.3.0"
+  },
+  "liberusoftware/module-liberu-revenue-and-care-orchestration-filament": {
+    "path": "modules/liberu-revenue-and-care-orchestration-filament",
+    "reference": "7bb7222792a4408d3d6737c80c04ae0953d37dcd",
+    "repository": "https://github.com/liberusoftware/module-liberu-revenue-and-care-orchestration-filament",
+    "source_signature": "276a11652266495edf504e233dc472bcfb157dc0fe3cd704a459941012a87ea7",
+    "source_tree": "c6f72b3eb879b0056e38428cce766e30bf20be11",
+    "version": "1.2.0"
+  },
+  "liberusoftware/module-liberu-revenue-and-care-orchestration-livewire": {
+    "path": "modules/liberu-revenue-and-care-orchestration-livewire",
+    "reference": "42a5ddee03a923dccae57397d39676d5a287b340",
+    "repository": "https://github.com/liberusoftware/module-liberu-revenue-and-care-orchestration-livewire",
+    "source_signature": "5495b7d821befae19eaff898e2a7ec9ae61c1829162016c81e836c97c4e52aa3",
+    "source_tree": "42aac5514796dc70cb12feda7d15b70d4bf408c7",
+    "version": "1.2.0"
   },
   "liberusoftware/module-manager": {
     "path": "modules/module-manager",
@@ -537,11 +609,11 @@
   },
   "liberusoftware/observability": {
     "path": "modules/observability",
-    "reference": "093591947f97d89016572c3642166b491d028dd2",
+    "reference": "53ec201689cac6a3eea9a741ab28ce0292b7612b",
     "repository": "https://github.com/liberusoftware/module-observability",
-    "source_signature": "7acacba40e9dfdf4285cb9e81761e27acb60387e99c9ecd3bfc8b0e8d2bede5d",
-    "source_tree": "482399ca144d874b9e260ef5a0e265a0d809d00f",
-    "version": "1.4.7"
+    "source_signature": "4a1b7c6d947fbc855d7017e345f581d40103ae6be11b8cc6cf5dca1c229fd80a",
+    "source_tree": "4a04658725b2f80c78b9aa629fdd666b5214c8f5",
+    "version": "1.4.8"
   },
   "liberusoftware/organizations-teams": {
     "path": "modules/organizations-teams",
@@ -569,11 +641,11 @@
   },
   "liberusoftware/roles-permissions": {
     "path": "modules/roles-permissions",
-    "reference": "e374dee8ffb858dca3a0b1325d2b61fcbb798b6b",
+    "reference": "cb99e2f8ec075b52ed3cb61322b36c646163f330",
     "repository": "https://github.com/liberusoftware/module-roles-permissions",
-    "source_signature": "a5c177d76ecf81024e1ee98cd8622b5982c7934d7242abfe26cd2e072e3f6c50",
-    "source_tree": "5c58c7c13efa394e3edb84a16b7276e1a7d8f593",
-    "version": "1.6.0"
+    "source_signature": "f5b1ab209c792e95daaf7f34ca1fb16f51cd0d83aab0524527ea9489e550da27",
+    "source_tree": "ebcc57f15aea9a6937d2844a32917f5a0d2be47c",
+    "version": "1.7.2"
   },
   "liberusoftware/roles-permissions-filament": {
     "path": "modules/roles-permissions-filament",
@@ -585,19 +657,19 @@
   },
   "liberusoftware/scheduler-queues": {
     "path": "modules/scheduler-queues",
-    "reference": "be463dea886d4303f840beb13ad0e98032f52940",
+    "reference": "5583216f6565d5cf33568e310b2d6527d523a297",
     "repository": "https://github.com/liberusoftware/module-scheduler-queues",
-    "source_signature": "da1a6c7bc18ed24e9e26ff79a56fa26ff6cece5ba89db52d5680470476d8cdc0",
-    "source_tree": "8c01aa181baeb871a079425623cc75b94f87ec57",
-    "version": "1.5.1"
+    "source_signature": "760d848cae0478aa2bdae4fd304d4e9bade935412fc9bc9faeb3962be8c75156",
+    "source_tree": "88c99c38ba9a439bfe3a35e9a093e3bec5165c45",
+    "version": "1.6.0"
   },
   "liberusoftware/search": {
     "path": "modules/search",
-    "reference": "cd1913f87941237117a9423e7b519b7f24909be3",
+    "reference": "0a4b78e4c3a44f65f20f8d7a866fb579a9994940",
     "repository": "https://github.com/liberusoftware/module-search",
-    "source_signature": "d2ee448ce59cdc7b1df7ded75c80581020ce6dead14bf0197074f10510b52615",
-    "source_tree": "e5f7336f355378bdb38fbd0eaedaef72e6b64411",
-    "version": "1.8.1"
+    "source_signature": "834402677c8000f66fa0dcb5b9c054b8f6d23c29d2d732fa8998ac7cc22202d2",
+    "source_tree": "3e3bd1f547484bf76a81c0880b58aea0a5b29224",
+    "version": "1.8.2"
   },
   "liberusoftware/search-api": {
     "path": "modules/search-api",
@@ -609,11 +681,11 @@
   },
   "liberusoftware/sessions-devices": {
     "path": "modules/sessions-devices",
-    "reference": "50174438d8f823f16390ca06093f67967ccb5c1d",
+    "reference": "f76f707dc3b657ab1cca20d56fd33286bb97b7e5",
     "repository": "https://github.com/liberusoftware/module-sessions-devices",
-    "source_signature": "aaa15409777dd8920ad9b02b13f2f7e6899581f4adaefd6c18e6258c30d099f0",
-    "source_tree": "86dff081059ee1edb16ebc24d6644f11a2ee2a63",
-    "version": "1.5.1"
+    "source_signature": "41ac3b4cd1fe704f6a8b21ed66487f18659dc109a76db0136ecd93a43bbe8c4e",
+    "source_tree": "1851e4b40ea14821ba54ffcde39a1785c7069859",
+    "version": "1.5.2"
   },
   "liberusoftware/sessions-devices-filament": {
     "path": "modules/sessions-devices-filament",
@@ -625,11 +697,11 @@
   },
   "liberusoftware/settings": {
     "path": "modules/settings",
-    "reference": "5ef0f0312941ac4567512d930108e43586cb69b7",
+    "reference": "b2fbb2a2efbb67746b4ea6986fc8064e71e3dac0",
     "repository": "https://github.com/liberusoftware/module-settings",
-    "source_signature": "791c26370f6e259f7bb22dd1ac68cea7a44b49cd7f575b4cffd54d1fc2ca8eea",
-    "source_tree": "479c070f3da14d7eed8f23274f999ea05033bc9f",
-    "version": "1.5.1"
+    "source_signature": "e40c485e44f55ab8a727686672618143506bcf79465be66fc14539e60bfb3eb0",
+    "source_tree": "4893b74adfd61f1e789f83242c741f70cbef3c12",
+    "version": "1.5.3"
   },
   "liberusoftware/settings-filament": {
     "path": "modules/settings-filament",
@@ -673,11 +745,11 @@
   },
   "liberusoftware/theme-default": {
     "path": "themes/default",
-    "reference": "6d016d956865b3f39aa8be9053ec8c5358e04a2d",
+    "reference": "981f81f9f72261fc72c0641e554da4f761dba7b0",
     "repository": "https://github.com/liberusoftware/theme-default",
     "source_signature": "5a6d5fca80ff251a2bd79cd7c36e9f442b0dd92453745f082d93680797c415db",
-    "source_tree": "397464325f89e558768734eacc1fdff1da5cf88a",
-    "version": "1.10.0"
+    "source_tree": "d9def70b350f2da2551e9085b79c4e27b8af9a49",
+    "version": "1.11.0"
   },
   "liberusoftware/theme-support": {
     "path": "modules/theme-support",
@@ -697,11 +769,11 @@
   },
   "liberusoftware/two-factor-authentication": {
     "path": "modules/two-factor-authentication",
-    "reference": "3ca80cbc17980d9749faf765c0db847ba43c4d29",
+    "reference": "bbba0489fb698d12d24e68156e677767379348dc",
     "repository": "https://github.com/liberusoftware/module-two-factor-authentication",
-    "source_signature": "bdc7d5e730187b97a8d079b0a4dcf690e113a9c7d76149e48aeabe9066abf199",
-    "source_tree": "21c52926225fb1ae0bfffe3ef3dd15535a9fecb2",
-    "version": "1.4.6"
+    "source_signature": "2f7c141d1f8357adc861cb3d19769dfb2de1682dba5d517be617e34be6166443",
+    "source_tree": "4d91972145371020ae54d5be6373be897485b84c",
+    "version": "1.4.7"
   },
   "liberusoftware/users-roles": {
     "path": "modules/users-roles",
