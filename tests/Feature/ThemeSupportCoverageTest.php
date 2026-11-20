@@ -275,7 +275,7 @@ it('covers ThemeManager branches and theme_helpers', function () {
     expect($manager->describeViewSource('welcome')['source'])->toBe('application');
 
     $manager->setTheme('clear-signal');
-    expect($manager->describeViewSource('welcome')['source'])->toBe('theme');
+    expect($manager->describeViewSource('layouts.app')['source'])->toBe('theme');
     $manager->setTheme('default');
 
     $moduleViewInfo = $manager->describeViewSource('liberu-executive-insights-livewire::list');
