@@ -3,7 +3,7 @@
   "name": "module-automation-image-livewire",
   "display_name": "Image Livewire",
   "description": "Livewire 4 presentation adapter for module-automation-image.",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Image\\Livewire\\ImageLivewireServiceProvider",
   "requires": {

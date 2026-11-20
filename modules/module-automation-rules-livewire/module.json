@@ -3,7 +3,7 @@
   "name": "module-automation-rules-livewire",
   "display_name": "Rules Livewire",
   "description": "Livewire 4 presentation adapter for module-automation-rules.",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Rules\\Livewire\\RulesLivewireServiceProvider",
   "requires": {

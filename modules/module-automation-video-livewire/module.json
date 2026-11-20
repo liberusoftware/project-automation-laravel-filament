@@ -3,7 +3,7 @@
   "name": "module-automation-video-livewire",
   "display_name": "Video Livewire",
   "description": "Livewire 4 presentation adapter for module-automation-video.",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Video\\Livewire\\VideoLivewireServiceProvider",
   "requires": {
