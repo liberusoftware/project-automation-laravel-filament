@@ -217,6 +217,11 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "homepage": "https://github.com/liberusoftware/project-automation-laravel-filament",
+    "support": {
+        "issues": "https://github.com/liberusoftware/project-automation-laravel-filament/issues",
+        "source": "https://github.com/liberusoftware/project-automation-laravel-filament"
+    },
     "repositories": [
         {
             "type": "git",
