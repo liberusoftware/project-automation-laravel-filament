@@ -3,7 +3,7 @@
   "name": "module-automation-ai-gateway-filament",
   "display_name": "AiGateway Filament",
   "description": "Filament 5 presentation adapter for module-automation-ai-gateway.",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\AiGateway\\Filament\\AiGatewayFilamentServiceProvider",
   "requires": {

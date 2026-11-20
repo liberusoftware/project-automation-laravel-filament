@@ -3560,30 +3560,30 @@
         },
         {
             "name": "laravel/fortify",
-            "version": "v1.42.0",
+            "version": "v1.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/fortify.git",
-                "reference": "29041e37e581fb58af62b70ee9649ad9105db0eb"
+                "reference": "3db382a3d5d6a0d537de32a190ce3b945e621713"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/fortify/zipball/29041e37e581fb58af62b70ee9649ad9105db0eb",
-                "reference": "29041e37e581fb58af62b70ee9649ad9105db0eb",
+                "url": "https://api.github.com/repos/laravel/fortify/zipball/3db382a3d5d6a0d537de32a190ce3b945e621713",
+                "reference": "3db382a3d5d6a0d537de32a190ce3b945e621713",
                 "shasum": ""
             },
             "require": {
                 "bacon/bacon-qr-code": "^3.0",
                 "ext-json": "*",
-                "illuminate/console": "^11.0|^12.0|^13.0",
-                "illuminate/support": "^11.0|^12.0|^13.0",
-                "laravel/passkeys": "^0.2.0",
+                "illuminate/console": "^12.0|^13.0",
+                "illuminate/support": "^12.0|^13.0",
+                "laravel/passkeys": "^0.3.0",
                 "php": "^8.2",
                 "pragmarx/google2fa": "^9.0"
             },
             "require-dev": {
                 "jasonmccreary/double": "^1.0",
-                "orchestra/testbench": "^9.15|^10.8|^11.0",
+                "orchestra/testbench": "^10.8|^11.0",
                 "phpstan/phpstan": "^2.2.6"
             },
             "type": "library",
@@ -3621,7 +3621,7 @@
                 "issues": "https://github.com/laravel/fortify/issues",
                 "source": "https://github.com/laravel/fortify"
             },
-            "time": "2026-10-21T21:13:55+00:00"
+            "time": "2026-11-14T19:58:33+00:00"
         },
         {
             "name": "laravel/framework",
@@ -4092,30 +4092,30 @@
         },
         {
             "name": "laravel/passkeys",
-            "version": "v0.2.1",
+            "version": "v0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/passkeys-server.git",
-                "reference": "a76656ada41b2b4a591f075eddae5ddc67e8ab9c"
+                "reference": "2e7f893429d35acff45ac16d05ddcf883372a20e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/passkeys-server/zipball/a76656ada41b2b4a591f075eddae5ddc67e8ab9c",
-                "reference": "a76656ada41b2b4a591f075eddae5ddc67e8ab9c",
+                "url": "https://api.github.com/repos/laravel/passkeys-server/zipball/2e7f893429d35acff45ac16d05ddcf883372a20e",
+                "reference": "2e7f893429d35acff45ac16d05ddcf883372a20e",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "^11.0|^12.0|^13.0",
-                "illuminate/database": "^11.0|^12.0|^13.0",
-                "illuminate/http": "^11.0|^12.0|^13.0",
-                "illuminate/routing": "^11.0|^12.0|^13.0",
-                "illuminate/support": "^11.0|^12.0|^13.0",
+                "illuminate/contracts": "^12.0|^13.0",
+                "illuminate/database": "^12.0|^13.0",
+                "illuminate/http": "^12.0|^13.0",
+                "illuminate/routing": "^12.0|^13.0",
+                "illuminate/support": "^12.0|^13.0",
                 "php": "^8.2",
                 "web-auth/webauthn-lib": "5.3.x"
             },
             "require-dev": {
                 "laravel/pint": "^1.28.0",
-                "orchestra/testbench": "^9.0|^10.0|^11.0",
+                "orchestra/testbench": "^10.0|^11.0",
                 "pestphp/pest": "^3.0|^4.0",
                 "phpstan/phpstan": "^2.0",
                 "rector/rector": "^2.3"
@@ -4156,7 +4156,7 @@
                 "issues": "https://github.com/laravel/passkeys-server/issues",
                 "source": "https://github.com/laravel/passkeys-server"
             },
-            "time": "2026-05-18T16:26:00+00:00"
+            "time": "2026-11-10T16:14:06+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -5812,16 +5812,16 @@
         },
         {
             "name": "liberusoftware/api-access",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-api-access.git",
-                "reference": "566a0596c48aa186fe4f7dc23d4c65b6c6e72d35"
+                "reference": "de13fb9fd150cd0963cdf9ce7bf580ab476964f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-api-access/zipball/566a0596c48aa186fe4f7dc23d4c65b6c6e72d35",
-                "reference": "566a0596c48aa186fe4f7dc23d4c65b6c6e72d35",
+                "url": "https://api.github.com/repos/liberusoftware/module-api-access/zipball/de13fb9fd150cd0963cdf9ce7bf580ab476964f5",
+                "reference": "de13fb9fd150cd0963cdf9ce7bf580ab476964f5",
                 "shasum": ""
             },
             "require": {
@@ -5854,9 +5854,9 @@
             "description": "API token, scope, version, rate-limit, idempotency, and revocation policy.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-api-access/issues",
-                "source": "https://github.com/liberusoftware/module-api-access/tree/v1.6.2"
+                "source": "https://github.com/liberusoftware/module-api-access/tree/v1.6.3"
             },
-            "time": "2026-11-13T23:58:52+00:00"
+            "time": "2026-11-14T21:05:43+00:00"
         },
         {
             "name": "liberusoftware/application",
@@ -6041,16 +6041,16 @@
         },
         {
             "name": "liberusoftware/automation-ai-gateway-filament",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-ai-gateway-filament.git",
-                "reference": "2b9f7cd4fa8c7f56c82d7e42cd36127b5d8fa78f"
+                "reference": "f8a7bec5225b6d2432cc818e78a615a4930f8ecb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-ai-gateway-filament/zipball/2b9f7cd4fa8c7f56c82d7e42cd36127b5d8fa78f",
-                "reference": "2b9f7cd4fa8c7f56c82d7e42cd36127b5d8fa78f",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-ai-gateway-filament/zipball/f8a7bec5225b6d2432cc818e78a615a4930f8ecb",
+                "reference": "f8a7bec5225b6d2432cc818e78a615a4930f8ecb",
                 "shasum": ""
             },
             "require": {
@@ -6079,22 +6079,22 @@
             "description": "Filament 5 adapter for module-automation-ai-gateway.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-ai-gateway-filament/issues",
-                "source": "https://github.com/liberusoftware/module-automation-ai-gateway-filament/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-ai-gateway-filament/tree/v1.0.9"
             },
-            "time": "2026-11-02T16:46:37+00:00"
+            "time": "2026-11-14T14:26:00+00:00"
         },
         {
             "name": "liberusoftware/automation-ai-gateway-livewire",
-            "version": "v1.0.8",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-ai-gateway-livewire.git",
-                "reference": "2705cb928ca7f79ff0f0f2d5b7de40afbbbb498f"
+                "reference": "fcf798d93aa65552769cb841072020d7ea9ce23c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-ai-gateway-livewire/zipball/2705cb928ca7f79ff0f0f2d5b7de40afbbbb498f",
-                "reference": "2705cb928ca7f79ff0f0f2d5b7de40afbbbb498f",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-ai-gateway-livewire/zipball/fcf798d93aa65552769cb841072020d7ea9ce23c",
+                "reference": "fcf798d93aa65552769cb841072020d7ea9ce23c",
                 "shasum": ""
             },
             "require": {
@@ -6123,9 +6123,9 @@
             "description": "Livewire 4 adapter for module-automation-ai-gateway.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-ai-gateway-livewire/issues",
-                "source": "https://github.com/liberusoftware/module-automation-ai-gateway-livewire/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-ai-gateway-livewire/tree/v1.1.0"
             },
-            "time": "2026-11-02T16:46:40+00:00"
+            "time": "2026-11-20T14:39:27+00:00"
         },
         {
             "name": "liberusoftware/automation-approvals",
@@ -6218,16 +6218,16 @@
         },
         {
             "name": "liberusoftware/automation-approvals-filament",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-approvals-filament.git",
-                "reference": "01a62a80c4292db683b4aca3b91fa5db31d03ff3"
+                "reference": "4a4cfc4c4c964e37e6059e41daf93d3c08f0ad41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-approvals-filament/zipball/01a62a80c4292db683b4aca3b91fa5db31d03ff3",
-                "reference": "01a62a80c4292db683b4aca3b91fa5db31d03ff3",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-approvals-filament/zipball/4a4cfc4c4c964e37e6059e41daf93d3c08f0ad41",
+                "reference": "4a4cfc4c4c964e37e6059e41daf93d3c08f0ad41",
                 "shasum": ""
             },
             "require": {
@@ -6256,22 +6256,22 @@
             "description": "Filament 5 adapter for module-automation-approvals.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-approvals-filament/issues",
-                "source": "https://github.com/liberusoftware/module-automation-approvals-filament/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-approvals-filament/tree/v1.0.9"
             },
-            "time": "2026-11-02T16:46:50+00:00"
+            "time": "2026-11-14T14:26:01+00:00"
         },
         {
             "name": "liberusoftware/automation-approvals-livewire",
-            "version": "v1.0.8",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-approvals-livewire.git",
-                "reference": "66e17c4e0c755d9715969c59131018e93b9861f2"
+                "reference": "af0a285920c7c5ce630f134bebe68ab1ea899e7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-approvals-livewire/zipball/66e17c4e0c755d9715969c59131018e93b9861f2",
-                "reference": "66e17c4e0c755d9715969c59131018e93b9861f2",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-approvals-livewire/zipball/af0a285920c7c5ce630f134bebe68ab1ea899e7d",
+                "reference": "af0a285920c7c5ce630f134bebe68ab1ea899e7d",
                 "shasum": ""
             },
             "require": {
@@ -6300,22 +6300,22 @@
             "description": "Livewire 4 adapter for module-automation-approvals.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-approvals-livewire/issues",
-                "source": "https://github.com/liberusoftware/module-automation-approvals-livewire/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-approvals-livewire/tree/v1.1.0"
             },
-            "time": "2026-11-02T16:46:54+00:00"
+            "time": "2026-11-20T14:39:34+00:00"
         },
         {
             "name": "liberusoftware/automation-automation-core",
-            "version": "v1.0.8",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-automation-core.git",
-                "reference": "5f83b19ef5dd8d88336c43d2b0db1d014e3242d7"
+                "reference": "378a72b3c8202cd8aab94e237f78efc4d1fd2c96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-automation-core/zipball/5f83b19ef5dd8d88336c43d2b0db1d014e3242d7",
-                "reference": "5f83b19ef5dd8d88336c43d2b0db1d014e3242d7",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-automation-core/zipball/378a72b3c8202cd8aab94e237f78efc4d1fd2c96",
+                "reference": "378a72b3c8202cd8aab94e237f78efc4d1fd2c96",
                 "shasum": ""
             },
             "require": {
@@ -6344,9 +6344,9 @@
             "description": "Provider-neutral automation-core domain module for Liberu Automation.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-automation-core/issues",
-                "source": "https://github.com/liberusoftware/module-automation-automation-core/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-automation-core/tree/v1.1.0"
             },
-            "time": "2026-11-02T16:46:57+00:00"
+            "time": "2026-11-20T14:39:38+00:00"
         },
         {
             "name": "liberusoftware/automation-automation-core-api",
@@ -6395,16 +6395,16 @@
         },
         {
             "name": "liberusoftware/automation-automation-core-filament",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-automation-core-filament.git",
-                "reference": "387a1bf901d0ef96f9936dc68ef1f10fee400ce8"
+                "reference": "4a9749a5b8512843928b4abe70c4951c1e85dc65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-automation-core-filament/zipball/387a1bf901d0ef96f9936dc68ef1f10fee400ce8",
-                "reference": "387a1bf901d0ef96f9936dc68ef1f10fee400ce8",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-automation-core-filament/zipball/4a9749a5b8512843928b4abe70c4951c1e85dc65",
+                "reference": "4a9749a5b8512843928b4abe70c4951c1e85dc65",
                 "shasum": ""
             },
             "require": {
@@ -6433,22 +6433,22 @@
             "description": "Filament 5 adapter for module-automation-automation-core.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-automation-core-filament/issues",
-                "source": "https://github.com/liberusoftware/module-automation-automation-core-filament/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-automation-core-filament/tree/v1.0.9"
             },
-            "time": "2026-11-02T16:47:05+00:00"
+            "time": "2026-11-14T14:26:02+00:00"
         },
         {
             "name": "liberusoftware/automation-automation-core-livewire",
-            "version": "v1.0.8",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-automation-core-livewire.git",
-                "reference": "97e672f94e2f4de8f158ee164ad27e615cb78ab5"
+                "reference": "8a3374a6737c0d19ed370e5aa254f9dae4e38661"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-automation-core-livewire/zipball/97e672f94e2f4de8f158ee164ad27e615cb78ab5",
-                "reference": "97e672f94e2f4de8f158ee164ad27e615cb78ab5",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-automation-core-livewire/zipball/8a3374a6737c0d19ed370e5aa254f9dae4e38661",
+                "reference": "8a3374a6737c0d19ed370e5aa254f9dae4e38661",
                 "shasum": ""
             },
             "require": {
@@ -6477,9 +6477,9 @@
             "description": "Livewire 4 adapter for module-automation-automation-core.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-automation-core-livewire/issues",
-                "source": "https://github.com/liberusoftware/module-automation-automation-core-livewire/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-automation-core-livewire/tree/v1.1.0"
             },
-            "time": "2026-11-02T16:47:11+00:00"
+            "time": "2026-11-20T14:39:44+00:00"
         },
         {
             "name": "liberusoftware/automation-connectors",
@@ -6572,16 +6572,16 @@
         },
         {
             "name": "liberusoftware/automation-connectors-filament",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-connectors-filament.git",
-                "reference": "441d1365ae85b26880edeb5336129e689b5b3cc3"
+                "reference": "07516cc27ad6afdd106f48139c2bcdf4cc79cdfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-connectors-filament/zipball/441d1365ae85b26880edeb5336129e689b5b3cc3",
-                "reference": "441d1365ae85b26880edeb5336129e689b5b3cc3",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-connectors-filament/zipball/07516cc27ad6afdd106f48139c2bcdf4cc79cdfa",
+                "reference": "07516cc27ad6afdd106f48139c2bcdf4cc79cdfa",
                 "shasum": ""
             },
             "require": {
@@ -6610,9 +6610,9 @@
             "description": "Filament 5 adapter for module-automation-connectors.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-connectors-filament/issues",
-                "source": "https://github.com/liberusoftware/module-automation-connectors-filament/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-connectors-filament/tree/v1.0.9"
             },
-            "time": "2026-11-02T16:47:23+00:00"
+            "time": "2026-11-14T14:26:03+00:00"
         },
         {
             "name": "liberusoftware/automation-connectors-livewire",
@@ -6749,16 +6749,16 @@
         },
         {
             "name": "liberusoftware/automation-data-processing-filament",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-data-processing-filament.git",
-                "reference": "3a75689122d90e8d22814a7efbb82c7aba481f41"
+                "reference": "6a21e44466360a76a675bc677c9738e61856f519"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-data-processing-filament/zipball/3a75689122d90e8d22814a7efbb82c7aba481f41",
-                "reference": "3a75689122d90e8d22814a7efbb82c7aba481f41",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-data-processing-filament/zipball/6a21e44466360a76a675bc677c9738e61856f519",
+                "reference": "6a21e44466360a76a675bc677c9738e61856f519",
                 "shasum": ""
             },
             "require": {
@@ -6787,9 +6787,9 @@
             "description": "Filament 5 adapter for module-automation-data-processing.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-data-processing-filament/issues",
-                "source": "https://github.com/liberusoftware/module-automation-data-processing-filament/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-data-processing-filament/tree/v1.0.9"
             },
-            "time": "2026-11-02T16:47:38+00:00"
+            "time": "2026-11-14T14:26:03+00:00"
         },
         {
             "name": "liberusoftware/automation-data-processing-livewire",
@@ -6926,16 +6926,16 @@
         },
         {
             "name": "liberusoftware/automation-evaluation-filament",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-evaluation-filament.git",
-                "reference": "7cbcfbb5ac0cc7b49ec4a776e6cc5ffe9562235c"
+                "reference": "e75bd265a395818ff08124782ee1570c63456cbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-evaluation-filament/zipball/7cbcfbb5ac0cc7b49ec4a776e6cc5ffe9562235c",
-                "reference": "7cbcfbb5ac0cc7b49ec4a776e6cc5ffe9562235c",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-evaluation-filament/zipball/e75bd265a395818ff08124782ee1570c63456cbf",
+                "reference": "e75bd265a395818ff08124782ee1570c63456cbf",
                 "shasum": ""
             },
             "require": {
@@ -6964,9 +6964,9 @@
             "description": "Filament 5 adapter for module-automation-evaluation.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-evaluation-filament/issues",
-                "source": "https://github.com/liberusoftware/module-automation-evaluation-filament/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-evaluation-filament/tree/v1.0.9"
             },
-            "time": "2026-11-02T16:47:54+00:00"
+            "time": "2026-11-14T14:26:03+00:00"
         },
         {
             "name": "liberusoftware/automation-evaluation-livewire",
@@ -7103,16 +7103,16 @@
         },
         {
             "name": "liberusoftware/automation-image-filament",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-image-filament.git",
-                "reference": "a21abcda791f7d66f8fd6f67904a9742a30b4973"
+                "reference": "6313735a5bf189e2b3c0cce8c7c7d3a915b71f2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-image-filament/zipball/a21abcda791f7d66f8fd6f67904a9742a30b4973",
-                "reference": "a21abcda791f7d66f8fd6f67904a9742a30b4973",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-image-filament/zipball/6313735a5bf189e2b3c0cce8c7c7d3a915b71f2a",
+                "reference": "6313735a5bf189e2b3c0cce8c7c7d3a915b71f2a",
                 "shasum": ""
             },
             "require": {
@@ -7141,9 +7141,9 @@
             "description": "Filament 5 adapter for module-automation-image.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-image-filament/issues",
-                "source": "https://github.com/liberusoftware/module-automation-image-filament/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-image-filament/tree/v1.0.9"
             },
-            "time": "2026-11-02T16:48:08+00:00"
+            "time": "2026-11-14T14:26:04+00:00"
         },
         {
             "name": "liberusoftware/automation-image-livewire",
@@ -7811,16 +7811,16 @@
         },
         {
             "name": "liberusoftware/automation-voice-filament",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-voice-filament.git",
-                "reference": "ee716b15e3e3c556bccd107eaf5f0c1eec10ae19"
+                "reference": "53740e3bce320f61d4db4f60ce9359a0fb8546e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-voice-filament/zipball/ee716b15e3e3c556bccd107eaf5f0c1eec10ae19",
-                "reference": "ee716b15e3e3c556bccd107eaf5f0c1eec10ae19",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-voice-filament/zipball/53740e3bce320f61d4db4f60ce9359a0fb8546e4",
+                "reference": "53740e3bce320f61d4db4f60ce9359a0fb8546e4",
                 "shasum": ""
             },
             "require": {
@@ -7849,9 +7849,9 @@
             "description": "Filament 5 adapter for module-automation-voice.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-voice-filament/issues",
-                "source": "https://github.com/liberusoftware/module-automation-voice-filament/tree/v1.0.8"
+                "source": "https://github.com/liberusoftware/module-automation-voice-filament/tree/v1.0.9"
             },
-            "time": "2026-11-02T16:49:10+00:00"
+            "time": "2026-11-14T14:26:07+00:00"
         },
         {
             "name": "liberusoftware/automation-voice-livewire",
@@ -7943,16 +7943,16 @@
         },
         {
             "name": "liberusoftware/currency-context",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-currency-context.git",
-                "reference": "2005aaffe4c344840a3fb7a21d206be8cf532582"
+                "reference": "0edb020bec86e5e5107fc6cc331a9a156a965f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-currency-context/zipball/2005aaffe4c344840a3fb7a21d206be8cf532582",
-                "reference": "2005aaffe4c344840a3fb7a21d206be8cf532582",
+                "url": "https://api.github.com/repos/liberusoftware/module-currency-context/zipball/0edb020bec86e5e5107fc6cc331a9a156a965f62",
+                "reference": "0edb020bec86e5e5107fc6cc331a9a156a965f62",
                 "shasum": ""
             },
             "require": {
@@ -7984,9 +7984,9 @@
             "description": "Precise money values, ISO currency metadata, context, formatting, and exchange-rate contracts.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-currency-context/issues",
-                "source": "https://github.com/liberusoftware/module-currency-context/tree/v1.6.1"
+                "source": "https://github.com/liberusoftware/module-currency-context/tree/v1.6.2"
             },
-            "time": "2026-11-13T22:47:32+00:00"
+            "time": "2026-11-14T19:18:40+00:00"
         },
         {
             "name": "liberusoftware/developer-experience",
@@ -8128,16 +8128,16 @@
         },
         {
             "name": "liberusoftware/identity-core",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-identity-core.git",
-                "reference": "67381d9c850f8e35dfd049456d2a1bded25b4e38"
+                "reference": "4403fa4892045de8b182ae0cdc30dd45b3fe5597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-identity-core/zipball/67381d9c850f8e35dfd049456d2a1bded25b4e38",
-                "reference": "67381d9c850f8e35dfd049456d2a1bded25b4e38",
+                "url": "https://api.github.com/repos/liberusoftware/module-identity-core/zipball/4403fa4892045de8b182ae0cdc30dd45b3fe5597",
+                "reference": "4403fa4892045de8b182ae0cdc30dd45b3fe5597",
                 "shasum": ""
             },
             "require": {
@@ -8167,22 +8167,22 @@
             "description": "Provider-neutral identity policy, normalization, and versioned security events.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-identity-core/issues",
-                "source": "https://github.com/liberusoftware/module-identity-core/tree/v1.7.0"
+                "source": "https://github.com/liberusoftware/module-identity-core/tree/v1.7.1"
             },
-            "time": "2026-11-02T16:46:36+00:00"
+            "time": "2026-11-18T15:09:27+00:00"
         },
         {
             "name": "liberusoftware/identity-core-filament",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-identity-core-filament.git",
-                "reference": "b5af907c9a1299fed68689a86926573ff20dbe37"
+                "reference": "ec72a40391d2471b94db955ad21a644972db448d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-identity-core-filament/zipball/b5af907c9a1299fed68689a86926573ff20dbe37",
-                "reference": "b5af907c9a1299fed68689a86926573ff20dbe37",
+                "url": "https://api.github.com/repos/liberusoftware/module-identity-core-filament/zipball/ec72a40391d2471b94db955ad21a644972db448d",
+                "reference": "ec72a40391d2471b94db955ad21a644972db448d",
                 "shasum": ""
             },
             "require": {
@@ -8212,9 +8212,9 @@
             "description": "Filament administration adapter for the configured Liberu identity model.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-identity-core-filament/issues",
-                "source": "https://github.com/liberusoftware/module-identity-core-filament/tree/v1.7.1"
+                "source": "https://github.com/liberusoftware/module-identity-core-filament/tree/v1.7.2"
             },
-            "time": "2026-11-02T16:49:29+00:00"
+            "time": "2026-11-14T14:25:59+00:00"
         },
         {
             "name": "liberusoftware/identity-socialstream",
@@ -8312,11 +8312,11 @@
         },
         {
             "name": "liberusoftware/integrations",
-            "version": "1.8.2",
+            "version": "1.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-integrations.git",
-                "reference": "57e4abb5fa2da5cc0ece6115a706726e1889fd6b"
+                "reference": "35e80b1eee5452a6c98b772ecf5580d10402e2d0"
             },
             "require": {
                 "illuminate/database": "^13.38.0",
@@ -8326,6 +8326,7 @@
             },
             "require-dev": {
                 "liberusoftware/package-testbench": "^1.5",
+                "mailchimp/marketing": "^3.0",
                 "pestphp/pest": "^5.3.3"
             },
             "type": "liberu-module",
@@ -8353,7 +8354,7 @@
                 "MIT"
             ],
             "description": "Provider adapter registry and protected connection lifecycle.",
-            "time": "2026-11-14T15:23:44+00:00"
+            "time": "2026-11-14T21:35:16+00:00"
         },
         {
             "name": "liberusoftware/jetstream-bridge",
@@ -8491,11 +8492,11 @@
         },
         {
             "name": "liberusoftware/localization-core-livewire",
-            "version": "1.5.3",
+            "version": "1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-localization-core-livewire.git",
-                "reference": "84a43c5795e115f781ca757ef488537e594b4602"
+                "reference": "aaed47d67e7901178d097593b9eac7e7272daf67"
             },
             "require": {
                 "liberusoftware/localization-core": "^1.0",
@@ -8532,7 +8533,7 @@
                 "MIT"
             ],
             "description": "Livewire locale-switching presentation adapter for Liberu Localization.",
-            "time": "2026-11-14T14:23:26+00:00"
+            "time": "2026-11-18T14:47:04+00:00"
         },
         {
             "name": "liberusoftware/localization-mymemory",
@@ -8582,16 +8583,16 @@
         },
         {
             "name": "liberusoftware/module-liberu-business-workflow-reconciliation",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation.git",
-                "reference": "a1ae468342d217f2a6c0d6b29111484ebadcd806"
+                "reference": "43c9f5edd9bc0940a457b9e63a5fd3311bb30267"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-liberu-business-workflow-reconciliation/zipball/a1ae468342d217f2a6c0d6b29111484ebadcd806",
-                "reference": "a1ae468342d217f2a6c0d6b29111484ebadcd806",
+                "url": "https://api.github.com/repos/liberusoftware/module-liberu-business-workflow-reconciliation/zipball/43c9f5edd9bc0940a457b9e63a5fd3311bb30267",
+                "reference": "43c9f5edd9bc0940a457b9e63a5fd3311bb30267",
                 "shasum": ""
             },
             "require": {
@@ -8623,9 +8624,9 @@
             "description": "Liberu liberu-business-workflow-reconciliation module.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation/issues",
-                "source": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation/tree/v1.5.0"
+                "source": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation/tree/v1.6.0"
             },
-            "time": "2026-11-02T16:48:38+00:00"
+            "time": "2026-11-19T09:44:29+00:00"
         },
         {
             "name": "liberusoftware/module-liberu-business-workflow-reconciliation-api",
@@ -8769,16 +8770,16 @@
         },
         {
             "name": "liberusoftware/module-liberu-executive-insights",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-liberu-executive-insights.git",
-                "reference": "db0977ede43030176c5946f2ce27fcabf864f436"
+                "reference": "30941ce4351be1367216b49317eccd9997bd9544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-liberu-executive-insights/zipball/db0977ede43030176c5946f2ce27fcabf864f436",
-                "reference": "db0977ede43030176c5946f2ce27fcabf864f436",
+                "url": "https://api.github.com/repos/liberusoftware/module-liberu-executive-insights/zipball/30941ce4351be1367216b49317eccd9997bd9544",
+                "reference": "30941ce4351be1367216b49317eccd9997bd9544",
                 "shasum": ""
             },
             "require": {
@@ -8810,9 +8811,9 @@
             "description": "Liberu liberu-executive-insights module.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-liberu-executive-insights/issues",
-                "source": "https://github.com/liberusoftware/module-liberu-executive-insights/tree/v1.5.0"
+                "source": "https://github.com/liberusoftware/module-liberu-executive-insights/tree/v1.6.0"
             },
-            "time": "2026-11-02T16:48:55+00:00"
+            "time": "2026-11-19T09:45:26+00:00"
         },
         {
             "name": "liberusoftware/module-liberu-executive-insights-api",
@@ -8956,16 +8957,16 @@
         },
         {
             "name": "liberusoftware/module-liberu-platform-orchestration",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-liberu-platform-orchestration.git",
-                "reference": "49483a524363279c7d5c9ab01cc4210eb22425b9"
+                "reference": "34c5ae613c29b70a45e748dd26e2efeab22bb261"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-liberu-platform-orchestration/zipball/49483a524363279c7d5c9ab01cc4210eb22425b9",
-                "reference": "49483a524363279c7d5c9ab01cc4210eb22425b9",
+                "url": "https://api.github.com/repos/liberusoftware/module-liberu-platform-orchestration/zipball/34c5ae613c29b70a45e748dd26e2efeab22bb261",
+                "reference": "34c5ae613c29b70a45e748dd26e2efeab22bb261",
                 "shasum": ""
             },
             "require": {
@@ -8997,9 +8998,9 @@
             "description": "Liberu liberu-platform-orchestration module.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-liberu-platform-orchestration/issues",
-                "source": "https://github.com/liberusoftware/module-liberu-platform-orchestration/tree/v1.4.0"
+                "source": "https://github.com/liberusoftware/module-liberu-platform-orchestration/tree/v1.5.0"
             },
-            "time": "2026-11-02T16:49:12+00:00"
+            "time": "2026-11-19T09:45:26+00:00"
         },
         {
             "name": "liberusoftware/module-liberu-platform-orchestration-api",
@@ -9330,11 +9331,11 @@
         },
         {
             "name": "liberusoftware/module-manager",
-            "version": "1.9.2",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-module-manager.git",
-                "reference": "c78773cd1ce110f9c4c2560ab0c84d0ec9fe851a"
+                "reference": "d4e68cdfd04fd2fc5b00aaaf17ddaf7a9636b4aa"
             },
             "require": {
                 "composer/semver": "^3.5.2",
@@ -9372,15 +9373,15 @@
                 "MIT"
             ],
             "description": "Deterministic manifest discovery and runtime enablement for Liberu modules.",
-            "time": "2026-11-14T15:53:24+00:00"
+            "time": "2026-11-20T13:57:57+00:00"
         },
         {
             "name": "liberusoftware/module-manager-filament",
-            "version": "1.11.2",
+            "version": "1.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-module-manager-filament.git",
-                "reference": "dd7c98c89bff0c6b4cf1d1e26fdcc7ef83fb8a4b"
+                "reference": "7218a51254b2156c3c3af7f9b04f41d87e7f68de"
             },
             "require": {
                 "filament/filament": "^5.11.0",
@@ -9417,7 +9418,7 @@
                 "MIT"
             ],
             "description": "Filament page for enabling and disabling Liberu feature modules.",
-            "time": "2026-11-14T17:39:48+00:00"
+            "time": "2026-11-18T14:47:13+00:00"
         },
         {
             "name": "liberusoftware/notifications",
@@ -9514,11 +9515,11 @@
         },
         {
             "name": "liberusoftware/organizations-teams",
-            "version": "1.10.3",
+            "version": "1.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-organizations-teams.git",
-                "reference": "03c888fe56380e6e728c9fd7588955fbdaa21ab2"
+                "reference": "2d878a298c65f90ba389fe7877012a7c50707606"
             },
             "require": {
                 "laravel/jetstream": "^5.5.3",
@@ -9557,20 +9558,20 @@
                 "MIT"
             ],
             "description": "Organization, team, membership, invitation, ownership, and context foundation.",
-            "time": "2026-11-14T18:22:22+00:00"
+            "time": "2026-11-14T21:36:53+00:00"
         },
         {
             "name": "liberusoftware/organizations-teams-filament",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-organizations-teams-filament.git",
-                "reference": "de89f51ab032fecb5124ad6579f68c773a908800"
+                "reference": "5ee621d06806b82c2dd7cd762ed92a8411de968a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-organizations-teams-filament/zipball/de89f51ab032fecb5124ad6579f68c773a908800",
-                "reference": "de89f51ab032fecb5124ad6579f68c773a908800",
+                "url": "https://api.github.com/repos/liberusoftware/module-organizations-teams-filament/zipball/5ee621d06806b82c2dd7cd762ed92a8411de968a",
+                "reference": "5ee621d06806b82c2dd7cd762ed92a8411de968a",
                 "shasum": ""
             },
             "require": {
@@ -9600,22 +9601,22 @@
             "description": "Filament administration adapter for organizations and teams.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-organizations-teams-filament/issues",
-                "source": "https://github.com/liberusoftware/module-organizations-teams-filament/tree/v1.6.1"
+                "source": "https://github.com/liberusoftware/module-organizations-teams-filament/tree/v1.6.2"
             },
-            "time": "2026-11-02T16:50:09+00:00"
+            "time": "2026-11-14T14:25:57+00:00"
         },
         {
             "name": "liberusoftware/profiles",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-profiles.git",
-                "reference": "2a429a0bd16c9ed582a009e19c9c9a71d5f2e7bb"
+                "reference": "25f59c96a85e94816f479eef925b07839463c704"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-profiles/zipball/2a429a0bd16c9ed582a009e19c9c9a71d5f2e7bb",
-                "reference": "2a429a0bd16c9ed582a009e19c9c9a71d5f2e7bb",
+                "url": "https://api.github.com/repos/liberusoftware/module-profiles/zipball/25f59c96a85e94816f479eef925b07839463c704",
+                "reference": "25f59c96a85e94816f479eef925b07839463c704",
                 "shasum": ""
             },
             "require": {
@@ -9646,9 +9647,9 @@
             "description": "Controlled profile updates and user presentation preferences.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-profiles/issues",
-                "source": "https://github.com/liberusoftware/module-profiles/tree/v1.6.0"
+                "source": "https://github.com/liberusoftware/module-profiles/tree/v1.6.1"
             },
-            "time": "2026-11-02T16:49:59+00:00"
+            "time": "2026-11-18T15:11:01+00:00"
         },
         {
             "name": "liberusoftware/roles-permissions",
@@ -9697,16 +9698,16 @@
         },
         {
             "name": "liberusoftware/roles-permissions-filament",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-roles-permissions-filament.git",
-                "reference": "838d8b31f6540de77263657e7afbd823b7351137"
+                "reference": "eb99eb21fba0ba2a731a0849b002c5601b11d622"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-roles-permissions-filament/zipball/838d8b31f6540de77263657e7afbd823b7351137",
-                "reference": "838d8b31f6540de77263657e7afbd823b7351137",
+                "url": "https://api.github.com/repos/liberusoftware/module-roles-permissions-filament/zipball/eb99eb21fba0ba2a731a0849b002c5601b11d622",
+                "reference": "eb99eb21fba0ba2a731a0849b002c5601b11d622",
                 "shasum": ""
             },
             "require": {
@@ -9737,9 +9738,9 @@
             "description": "Filament Shield presentation adapter for Liberu authorization.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-roles-permissions-filament/issues",
-                "source": "https://github.com/liberusoftware/module-roles-permissions-filament/tree/v1.6.1"
+                "source": "https://github.com/liberusoftware/module-roles-permissions-filament/tree/v1.6.2"
             },
-            "time": "2026-11-02T16:50:14+00:00"
+            "time": "2026-11-14T14:25:57+00:00"
         },
         {
             "name": "liberusoftware/scheduler-queues",
@@ -9928,16 +9929,16 @@
         },
         {
             "name": "liberusoftware/sessions-devices-filament",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-sessions-devices-filament.git",
-                "reference": "b7bde4e18d314a52eeb479243d6ec47f8e82f1a9"
+                "reference": "05c92c3bc7848767f49ed57d7aaeb67bc664280f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-sessions-devices-filament/zipball/b7bde4e18d314a52eeb479243d6ec47f8e82f1a9",
-                "reference": "b7bde4e18d314a52eeb479243d6ec47f8e82f1a9",
+                "url": "https://api.github.com/repos/liberusoftware/module-sessions-devices-filament/zipball/05c92c3bc7848767f49ed57d7aaeb67bc664280f",
+                "reference": "05c92c3bc7848767f49ed57d7aaeb67bc664280f",
                 "shasum": ""
             },
             "require": {
@@ -9967,9 +9968,9 @@
             "description": "Filament account-security presentation adapter for Liberu Sessions and Devices.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-sessions-devices-filament/issues",
-                "source": "https://github.com/liberusoftware/module-sessions-devices-filament/tree/v1.6.1"
+                "source": "https://github.com/liberusoftware/module-sessions-devices-filament/tree/v1.6.2"
             },
-            "time": "2026-11-02T16:50:26+00:00"
+            "time": "2026-11-14T14:25:58+00:00"
         },
         {
             "name": "liberusoftware/settings",
@@ -10017,16 +10018,16 @@
         },
         {
             "name": "liberusoftware/settings-filament",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-settings-filament.git",
-                "reference": "994889776978b47442df40930e50ce40ec3e0a99"
+                "reference": "69ca1d79679660457989bc5fb21dfec6c68270bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-settings-filament/zipball/994889776978b47442df40930e50ce40ec3e0a99",
-                "reference": "994889776978b47442df40930e50ce40ec3e0a99",
+                "url": "https://api.github.com/repos/liberusoftware/module-settings-filament/zipball/69ca1d79679660457989bc5fb21dfec6c68270bd",
+                "reference": "69ca1d79679660457989bc5fb21dfec6c68270bd",
                 "shasum": ""
             },
             "require": {
@@ -10060,9 +10061,9 @@
             "description": "Filament administration adapter for Liberu Settings.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-settings-filament/issues",
-                "source": "https://github.com/liberusoftware/module-settings-filament/tree/v1.6.2"
+                "source": "https://github.com/liberusoftware/module-settings-filament/tree/v1.6.3"
             },
-            "time": "2026-11-02T17:37:24+00:00"
+            "time": "2026-11-14T14:25:58+00:00"
         },
         {
             "name": "liberusoftware/tenancy",
@@ -10298,11 +10299,11 @@
         },
         {
             "name": "liberusoftware/theme-support",
-            "version": "1.8.4",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-theme-support.git",
-                "reference": "29e742bfbd0460fdf479cd30a471603c11df5073"
+                "reference": "d054af25e958cd418b13c9d21a8b762081910977"
             },
             "require": {
                 "liberusoftware/module-manager": "^1.0",
@@ -10346,15 +10347,15 @@
                 "MIT"
             ],
             "description": "Theme discovery and host presentation support for Liberu applications.",
-            "time": "2026-11-14T19:07:54+00:00"
+            "time": "2026-11-18T14:44:24+00:00"
         },
         {
             "name": "liberusoftware/theme-support-livewire",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-theme-support-livewire.git",
-                "reference": "15ddc6d1bc121159ae721a0f72fa8bde9be5818c"
+                "reference": "0153bcbf397eb257c853105d5c503a41923f0a3d"
             },
             "require": {
                 "liberusoftware/theme-support": "^1.0",
@@ -10392,7 +10393,7 @@
                 "MIT"
             ],
             "description": "Livewire theme-switching presentation adapter for Liberu Theme Support.",
-            "time": "2026-11-14T14:23:31+00:00"
+            "time": "2026-11-18T14:46:55+00:00"
         },
         {
             "name": "liberusoftware/two-factor-authentication",
@@ -11435,16 +11436,16 @@
         },
         {
             "name": "paragonie/constant_time_encoding",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/constant_time_encoding.git",
-                "reference": "5efef6e6cb43e088ccab7d0c1e2f2ab25b9e8b54"
+                "reference": "ceed38ba49d98b85808edfc4f04750ff61eb9739"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/5efef6e6cb43e088ccab7d0c1e2f2ab25b9e8b54",
-                "reference": "5efef6e6cb43e088ccab7d0c1e2f2ab25b9e8b54",
+                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/ceed38ba49d98b85808edfc4f04750ff61eb9739",
+                "reference": "ceed38ba49d98b85808edfc4f04750ff61eb9739",
                 "shasum": ""
             },
             "require": {
@@ -11500,7 +11501,7 @@
                 "issues": "https://github.com/paragonie/constant_time_encoding/issues",
                 "source": "https://github.com/paragonie/constant_time_encoding"
             },
-            "time": "2026-11-06T20:31:19+00:00"
+            "time": "2026-11-18T13:55:22+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -17180,16 +17181,16 @@
         },
         {
             "name": "symfony/polyfill-php85",
-            "version": "v1.43.0",
+            "version": "v1.44.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php85.git",
-                "reference": "86a42cbcc07adc331481a5ab310a4024bfc227f6"
+                "reference": "94c794cb5ba51784bc259f11e9f128593297d8dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php85/zipball/86a42cbcc07adc331481a5ab310a4024bfc227f6",
-                "reference": "86a42cbcc07adc331481a5ab310a4024bfc227f6",
+                "url": "https://api.github.com/repos/symfony/polyfill-php85/zipball/94c794cb5ba51784bc259f11e9f128593297d8dc",
+                "reference": "94c794cb5ba51784bc259f11e9f128593297d8dc",
                 "shasum": ""
             },
             "require": {
@@ -17236,7 +17237,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php85/tree/v1.43.0"
+                "source": "https://github.com/symfony/polyfill-php85/tree/v1.44.0"
             },
             "funding": [
                 {
@@ -17256,7 +17257,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-09-25T15:46:47+00:00"
+            "time": "2026-10-30T15:20:09+00:00"
         },
         {
             "name": "symfony/polyfill-php86",
@@ -19036,16 +19037,16 @@
         },
         {
             "name": "web-auth/webauthn-lib",
-            "version": "5.3.12",
+            "version": "5.3.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-auth/webauthn-lib.git",
-                "reference": "c7aeeb1d35e39b7d32ab5146cce4b668f271a68e"
+                "reference": "768fb8cf7bebaad8a08b3015e206dda95e3320fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-auth/webauthn-lib/zipball/c7aeeb1d35e39b7d32ab5146cce4b668f271a68e",
-                "reference": "c7aeeb1d35e39b7d32ab5146cce4b668f271a68e",
+                "url": "https://api.github.com/repos/web-auth/webauthn-lib/zipball/768fb8cf7bebaad8a08b3015e206dda95e3320fa",
+                "reference": "768fb8cf7bebaad8a08b3015e206dda95e3320fa",
                 "shasum": ""
             },
             "require": {
@@ -19106,7 +19107,7 @@
                 "webauthn"
             ],
             "support": {
-                "source": "https://github.com/web-auth/webauthn-lib/tree/5.3.12"
+                "source": "https://github.com/web-auth/webauthn-lib/tree/5.3.15"
             },
             "funding": [
                 {
@@ -19118,20 +19119,20 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-11-03T09:21:08+00:00"
+            "time": "2026-11-18T16:46:55+00:00"
         },
         {
             "name": "webmozart/assert",
-            "version": "2.5.0",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
-                "reference": "8a163706bbcac613733dba03f51e13b5eb1bb819"
+                "reference": "e578132c01bd0c64108386ab20d8217cd175ddec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/8a163706bbcac613733dba03f51e13b5eb1bb819",
-                "reference": "8a163706bbcac613733dba03f51e13b5eb1bb819",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/e578132c01bd0c64108386ab20d8217cd175ddec",
+                "reference": "e578132c01bd0c64108386ab20d8217cd175ddec",
                 "shasum": ""
             },
             "require": {
@@ -19182,9 +19183,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/2.5.0"
+                "source": "https://github.com/webmozarts/assert/tree/2.5.1"
             },
-            "time": "2026-10-05T23:14:19+00:00"
+            "time": "2026-11-15T13:41:13+00:00"
         },
         {
             "name": "yiisoft/injector",

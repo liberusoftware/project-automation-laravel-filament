@@ -3,7 +3,7 @@
   "name": "module-automation-voice-filament",
   "display_name": "Voice Filament",
   "description": "Filament 5 presentation adapter for module-automation-voice.",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Voice\\Filament\\VoiceFilamentServiceProvider",
   "requires": {

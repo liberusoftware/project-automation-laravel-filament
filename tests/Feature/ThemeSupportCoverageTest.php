@@ -268,4 +268,40 @@ it('covers ThemeManager branches and theme_helpers', function () {
     $freshMgr = new ThemeManager();
     expect($freshMgr->themeIsCompatible('default'))->toBeTrue();
     app()->instance(ModuleRegistry::class, $prevReg);
+
+    // ThemeManager::describeViewSource (application, theme, and module views) and selectedTheme composer path
+    $manager->selectForSurface('web', 'site-1', 'tenant-1');
+    expect($manager->getSelectedTheme())->toBe('default');
+    expect($manager->describeViewSource('welcome')['source'])->toBe('application');
+
+    $manager->setTheme('clear-signal');
+    expect($manager->describeViewSource('welcome')['source'])->toBe('theme');
+    $manager->setTheme('default');
+
+    $moduleViewInfo = $manager->describeViewSource('liberu-executive-insights-livewire::list');
+    expect($moduleViewInfo['source'])->toBe('module')
+        ->and($moduleViewInfo['namespace'])->toBe('liberu-executive-insights-livewire');
+
+    // Trigger View::composer with selectedTheme set and no user/session preference
+    auth()->logout();
+    session()->forget('theme');
+    view('welcome')->render();
+
+    // Cover theme namespace override directory detection in registerThemeNamespaceOverrides
+    $overrideDir = $manager->getThemeViewsPath('default').'/modules/liberu-executive-insights-livewire';
+    $createdOverride = ! File::isDirectory($overrideDir);
+    if ($createdOverride) {
+        File::ensureDirectoryExists($overrideDir);
+    }
+    try {
+        $manager->registerThemePaths();
+    } finally {
+        if ($createdOverride) {
+            File::deleteDirectory($overrideDir);
+            $modulesDir = $manager->getThemeViewsPath('default').'/modules';
+            if (File::isDirectory($modulesDir) && File::allFiles($modulesDir) === [] && File::directories($modulesDir) === []) {
+                File::deleteDirectory($modulesDir);
+            }
+        }
+    }
 });

@@ -10,6 +10,8 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\RateLimiter;
 use Laravel\Jetstream\Contracts\DeletesTeams;
@@ -17,6 +19,8 @@ use Liberu\Foundation\ApplicationCore\Http\Middleware\SecurityHeaders;
 use Liberu\Foundation\Audit\Contracts\AuditRecorder;
 use Liberu\Foundation\Audit\Support\AuditContext;
 use Liberu\Foundation\Audit\Support\ModelAuditListener;
+use Liberu\Foundation\Currency\Services\OpenExchangeRateApiProvider;
+use Liberu\Foundation\Currency\ValueObjects\Currency;
 use Liberu\Foundation\Identity\Listeners\EmitAuthenticationEvent;
 use Liberu\Foundation\IdentityFilament\Resources\UserResource\Pages\EditUser;
 use Liberu\Foundation\JetstreamBridge\Actions\Fortify\UpdateUserProfileInformation;
@@ -265,4 +269,30 @@ it('covers users-roles trait, factory, service provider, policy, and lookup edge
     ] as $ability) {
         expect($policy->{$ability}($user))->toBeBool();
     }
+});
+
+it('falls back to secondary exchange rate API URL when primary returns empty rates', function () {
+    Cache::flush();
+    config()->set('currency.exchange_rates_enabled', true);
+    config()->set('currency.exchange_rate_api_url', 'https://primary.rates.test/v6/latest/{base}');
+    config()->set('currency.exchange_rate_api_fallback_url', 'https://fallback.rates.test/v6/latest/{base}');
+
+    Http::fake([
+        'https://primary.rates.test/*' => Http::response([], 500),
+        'https://fallback.rates.test/*' => Http::response([
+            'result' => 'success',
+            'rates' => ['EUR' => 0.92],
+            'time_last_update_unix' => time(),
+        ], 200),
+    ]);
+
+    $provider = new OpenExchangeRateApiProvider();
+    $rate = $provider->rate(
+        new Currency('USD', 2, '$', 'US Dollar'),
+        new Currency('EUR', 2, '€', 'Euro'),
+        new DateTimeImmutable(),
+    );
+
+    expect($rate)->not->toBeNull()
+        ->and($rate->source)->toBe('fallback.rates.test');
 });

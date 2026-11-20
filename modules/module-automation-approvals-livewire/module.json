@@ -3,7 +3,7 @@
   "name": "module-automation-approvals-livewire",
   "display_name": "Approvals Livewire",
   "description": "Livewire 4 presentation adapter for module-automation-approvals.",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\Approvals\\Livewire\\ApprovalsLivewireServiceProvider",
   "requires": {
