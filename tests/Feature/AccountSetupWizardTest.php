@@ -1,13 +1,13 @@
 <?php
 
-use App\Filament\App\Pages\AccountSetupWizard;
-use App\Models\IntegrationConnection;
-use App\Models\TeamOnboarding;
 use App\Models\User;
 use Filament\Facades\Filament;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Liberu\Foundation\Integrations\Models\IntegrationConnection;
 use Liberu\Foundation\Integrations\Support\CredentialVault;
 use Liberu\Foundation\Organizations\Models\Team;
+use Liberu\Foundation\Organizations\Models\TeamOnboarding;
+use Liberu\Modules\Automation\AutomationCore\Filament\Pages\AccountSetupWizard;
 use Livewire\Livewire;
 
 uses(RefreshDatabase::class);

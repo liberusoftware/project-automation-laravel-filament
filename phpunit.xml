@@ -41,9 +41,6 @@
             <directory>app</directory>
             <directory>modules/*/src</directory>
         </include>
-        <exclude>
-            <directory>modules/*/src/Legacy</directory>
-        </exclude>
     </source>
     <php>
         <env name="APP_ENV" value="testing"/>

@@ -1,10 +1,10 @@
 <?php
 
-use App\Filament\App\Pages\AccountSetupWizard;
-use App\Models\TeamOnboarding;
 use App\Models\User;
 use Filament\Facades\Filament;
 use Illuminate\Support\Facades\Route;
+use Liberu\Foundation\Organizations\Models\TeamOnboarding;
+use Liberu\Modules\Automation\AutomationCore\Filament\Pages\AccountSetupWizard;
 
 Route::get('/', function () {
     return view('welcome');

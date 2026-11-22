@@ -2,7 +2,6 @@
 
 namespace App\Providers\Filament;
 
-use App\Filament\App\Pages\AccountSetupWizard;
 use App\Filament\ModulePlugins;
 use App\Models\User;
 use App\Support\ThemeColors;
@@ -28,6 +27,7 @@ use Liberu\Foundation\ApplicationCore\Http\Middleware\SecurityHeaders;
 use Liberu\Foundation\Localization\Http\Middleware\SetLocale;
 use Liberu\Foundation\ModuleManagerFilament\Pages\ModuleManagement;
 use Liberu\Foundation\Organizations\Models\Team;
+use Liberu\Modules\Automation\AutomationCore\Filament\Pages\AccountSetupWizard;
 
 class AdminPanelProvider extends PanelProvider
 {

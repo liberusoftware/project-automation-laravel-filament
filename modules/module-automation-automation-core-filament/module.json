@@ -10,7 +10,9 @@
     "php": "^8.5",
     "laravel": "^13.0",
     "packages": {
-      "liberusoftware/automation-automation-core": "^1.0"
+      "liberusoftware/automation-automation-core": "^1.0",
+      "liberusoftware/integrations": "^1.0",
+      "liberusoftware/organizations-teams": "^1.0"
     }
   },
   "capabilities": [
