@@ -3,7 +3,7 @@
   "name": "module-automation-automation-core-filament",
   "display_name": "AutomationCore Filament",
   "description": "Filament 5 presentation adapter for module-automation-automation-core.",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\AutomationCore\\Filament\\AutomationCoreFilamentServiceProvider",
   "requires": {

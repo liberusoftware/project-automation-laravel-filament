@@ -6397,21 +6397,24 @@
         },
         {
             "name": "liberusoftware/automation-automation-core-filament",
-            "version": "v1.0.9",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-automation-automation-core-filament.git",
-                "reference": "4a9749a5b8512843928b4abe70c4951c1e85dc65"
+                "reference": "3df335cac8d9328afa3854c74ae214a7b2b02044"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-automation-automation-core-filament/zipball/4a9749a5b8512843928b4abe70c4951c1e85dc65",
-                "reference": "4a9749a5b8512843928b4abe70c4951c1e85dc65",
+                "url": "https://api.github.com/repos/liberusoftware/module-automation-automation-core-filament/zipball/3df335cac8d9328afa3854c74ae214a7b2b02044",
+                "reference": "3df335cac8d9328afa3854c74ae214a7b2b02044",
                 "shasum": ""
             },
             "require": {
+                "bursteri/socialstream": "^7.0.0",
                 "filament/filament": "^5.11.0",
                 "liberusoftware/automation-automation-core": "^1.0",
+                "liberusoftware/integrations": "^1.0",
+                "liberusoftware/organizations-teams": "^1.0",
                 "php": "^8.5"
             },
             "require-dev": {
@@ -6435,9 +6438,9 @@
             "description": "Filament 5 adapter for module-automation-automation-core.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-automation-automation-core-filament/issues",
-                "source": "https://github.com/liberusoftware/module-automation-automation-core-filament/tree/v1.0.9"
+                "source": "https://github.com/liberusoftware/module-automation-automation-core-filament/tree/v1.1.0"
             },
-            "time": "2026-11-14T14:26:02+00:00"
+            "time": "2026-11-22T11:56:07+00:00"
         },
         {
             "name": "liberusoftware/automation-automation-core-livewire",
@@ -8314,11 +8317,11 @@
         },
         {
             "name": "liberusoftware/integrations",
-            "version": "1.12.0",
+            "version": "1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-integrations.git",
-                "reference": "26755a76dbd01e49e348e8c852e3ec0b1a40421c"
+                "reference": "340923b3cf847a30cd87d7065283681965b201f2"
             },
             "require": {
                 "illuminate/database": "^13.38.0",
@@ -8356,7 +8359,7 @@
                 "MIT"
             ],
             "description": "Provider adapter registry and protected connection lifecycle.",
-            "time": "2026-11-22T04:50:43+00:00"
+            "time": "2026-11-22T11:56:29+00:00"
         },
         {
             "name": "liberusoftware/jetstream-bridge",
@@ -8632,16 +8635,16 @@
         },
         {
             "name": "liberusoftware/module-liberu-business-workflow-reconciliation-api",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation-api.git",
-                "reference": "4215bfac623c60af40278db36afd4bf001e2324f"
+                "reference": "86d8b3a12139b90530965642e5039d9af744fa50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-liberu-business-workflow-reconciliation-api/zipball/4215bfac623c60af40278db36afd4bf001e2324f",
-                "reference": "4215bfac623c60af40278db36afd4bf001e2324f",
+                "url": "https://api.github.com/repos/liberusoftware/module-liberu-business-workflow-reconciliation-api/zipball/86d8b3a12139b90530965642e5039d9af744fa50",
+                "reference": "86d8b3a12139b90530965642e5039d9af744fa50",
                 "shasum": ""
             },
             "require": {
@@ -8674,9 +8677,9 @@
             "description": "Liberu liberu-business-workflow-reconciliation-api module.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation-api/issues",
-                "source": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation-api/tree/v1.4.0"
+                "source": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation-api/tree/v1.4.1"
             },
-            "time": "2026-11-02T16:48:44+00:00"
+            "time": "2026-11-22T11:59:05+00:00"
         },
         {
             "name": "liberusoftware/module-liberu-business-workflow-reconciliation-filament",
@@ -8819,16 +8822,16 @@
         },
         {
             "name": "liberusoftware/module-liberu-executive-insights-api",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-liberu-executive-insights-api.git",
-                "reference": "2c49b1060d74eb5e755ec9f21fa69675aaac7bc2"
+                "reference": "82b60cf434422de652395cb2630d02cea980cba3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-liberu-executive-insights-api/zipball/2c49b1060d74eb5e755ec9f21fa69675aaac7bc2",
-                "reference": "2c49b1060d74eb5e755ec9f21fa69675aaac7bc2",
+                "url": "https://api.github.com/repos/liberusoftware/module-liberu-executive-insights-api/zipball/82b60cf434422de652395cb2630d02cea980cba3",
+                "reference": "82b60cf434422de652395cb2630d02cea980cba3",
                 "shasum": ""
             },
             "require": {
@@ -8861,9 +8864,9 @@
             "description": "Liberu liberu-executive-insights-api module.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-liberu-executive-insights-api/issues",
-                "source": "https://github.com/liberusoftware/module-liberu-executive-insights-api/tree/v1.4.0"
+                "source": "https://github.com/liberusoftware/module-liberu-executive-insights-api/tree/v1.4.1"
             },
-            "time": "2026-11-02T16:49:00+00:00"
+            "time": "2026-11-22T11:59:10+00:00"
         },
         {
             "name": "liberusoftware/module-liberu-executive-insights-filament",
@@ -9006,16 +9009,16 @@
         },
         {
             "name": "liberusoftware/module-liberu-platform-orchestration-api",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-liberu-platform-orchestration-api.git",
-                "reference": "467097a138ff465be4c7423f2c1075ccfcd2daba"
+                "reference": "855355024f4026ec9a583017a3a3d388828b3583"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-liberu-platform-orchestration-api/zipball/467097a138ff465be4c7423f2c1075ccfcd2daba",
-                "reference": "467097a138ff465be4c7423f2c1075ccfcd2daba",
+                "url": "https://api.github.com/repos/liberusoftware/module-liberu-platform-orchestration-api/zipball/855355024f4026ec9a583017a3a3d388828b3583",
+                "reference": "855355024f4026ec9a583017a3a3d388828b3583",
                 "shasum": ""
             },
             "require": {
@@ -9048,9 +9051,9 @@
             "description": "Liberu liberu-platform-orchestration-api module.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-liberu-platform-orchestration-api/issues",
-                "source": "https://github.com/liberusoftware/module-liberu-platform-orchestration-api/tree/v1.3.0"
+                "source": "https://github.com/liberusoftware/module-liberu-platform-orchestration-api/tree/v1.3.1"
             },
-            "time": "2026-11-02T16:49:15+00:00"
+            "time": "2026-11-22T11:59:15+00:00"
         },
         {
             "name": "liberusoftware/module-liberu-platform-orchestration-filament",
@@ -9193,16 +9196,16 @@
         },
         {
             "name": "liberusoftware/module-liberu-revenue-and-care-orchestration-api",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-liberu-revenue-and-care-orchestration-api.git",
-                "reference": "1e9fcb4763f90fba88621ca72f0a71cf1a7acfd4"
+                "reference": "ba4f1da08b34dddc70862899fb8fdcd8db01102d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liberusoftware/module-liberu-revenue-and-care-orchestration-api/zipball/1e9fcb4763f90fba88621ca72f0a71cf1a7acfd4",
-                "reference": "1e9fcb4763f90fba88621ca72f0a71cf1a7acfd4",
+                "url": "https://api.github.com/repos/liberusoftware/module-liberu-revenue-and-care-orchestration-api/zipball/ba4f1da08b34dddc70862899fb8fdcd8db01102d",
+                "reference": "ba4f1da08b34dddc70862899fb8fdcd8db01102d",
                 "shasum": ""
             },
             "require": {
@@ -9235,9 +9238,9 @@
             "description": "Liberu liberu-revenue-and-care-orchestration-api module.",
             "support": {
                 "issues": "https://github.com/liberusoftware/module-liberu-revenue-and-care-orchestration-api/issues",
-                "source": "https://github.com/liberusoftware/module-liberu-revenue-and-care-orchestration-api/tree/v1.2.0"
+                "source": "https://github.com/liberusoftware/module-liberu-revenue-and-care-orchestration-api/tree/v1.2.1"
             },
-            "time": "2026-11-02T16:49:31+00:00"
+            "time": "2026-11-22T11:59:19+00:00"
         },
         {
             "name": "liberusoftware/module-liberu-revenue-and-care-orchestration-filament",
@@ -9333,11 +9336,11 @@
         },
         {
             "name": "liberusoftware/module-manager",
-            "version": "1.10.1",
+            "version": "1.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-module-manager.git",
-                "reference": "c69eebdbce56bbaf54be6926a6ae623b065eeb2b"
+                "reference": "8451fdf2eb0764c1d3ae341945a2a8f5592df9af"
             },
             "require": {
                 "composer/semver": "^3.5.2",
@@ -9375,7 +9378,7 @@
                 "MIT"
             ],
             "description": "Deterministic manifest discovery and runtime enablement for Liberu modules.",
-            "time": "2026-11-21T17:59:31+00:00"
+            "time": "2026-11-22T12:02:29+00:00"
         },
         {
             "name": "liberusoftware/module-manager-filament",
@@ -9517,11 +9520,11 @@
         },
         {
             "name": "liberusoftware/organizations-teams",
-            "version": "1.12.2",
+            "version": "1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liberusoftware/module-organizations-teams.git",
-                "reference": "a727ec8a5556d0c6c945c15271d8cd41c0b37732"
+                "reference": "afc4badb4b61497bb2d06c779a91809446f29d17"
             },
             "require": {
                 "laravel/jetstream": "^5.5.3",
@@ -9561,7 +9564,7 @@
                 "MIT"
             ],
             "description": "Organization, team, membership, invitation, ownership, and context foundation.",
-            "time": "2026-11-22T05:19:15+00:00"
+            "time": "2026-11-22T11:56:42+00:00"
         },
         {
             "name": "liberusoftware/organizations-teams-filament",
