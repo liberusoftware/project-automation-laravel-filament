@@ -519,6 +519,14 @@
     "source_tree": "a5e457d9cbf324cedd4185bab58df4597a2f8d57",
     "version": "1.6.1"
   },
+  "liberusoftware/module-liberu-business-workflow-reconciliation-api": {
+    "path": "modules/liberu-business-workflow-reconciliation-api",
+    "reference": "86d8b3a12139b90530965642e5039d9af744fa50",
+    "repository": "https://github.com/liberusoftware/module-liberu-business-workflow-reconciliation-api",
+    "source_signature": "a4056e8440c14d510378615377280f3351402fb16aa6e4efd512d0019207fb40",
+    "source_tree": "308893829e73f7098ca229e54f48c172a0934fd9",
+    "version": "1.4.1"
+  },
   "liberusoftware/module-liberu-business-workflow-reconciliation-filament": {
     "path": "modules/liberu-business-workflow-reconciliation-filament",
     "reference": "67077026fe92f1729755dd1dd372012a0c3ae97d",
@@ -542,6 +550,14 @@
     "source_signature": "a2065caf9e88f62dff38aefc2c8c592ab1426348e6f655d6e3fd4d03ec8bab04",
     "source_tree": "ba600ccc37f96584ea00d6966c59d91e6c9b3cbd",
     "version": "1.6.1"
+  },
+  "liberusoftware/module-liberu-executive-insights-api": {
+    "path": "modules/liberu-executive-insights-api",
+    "reference": "82b60cf434422de652395cb2630d02cea980cba3",
+    "repository": "https://github.com/liberusoftware/module-liberu-executive-insights-api",
+    "source_signature": "ae162645edaac811647bb3d7869400936a21a3ab2f3ccf39c0f65e9c512a261c",
+    "source_tree": "c3dd6cc4f0ddb48964945e504167fcf5f84998c3",
+    "version": "1.4.1"
   },
   "liberusoftware/module-liberu-executive-insights-filament": {
     "path": "modules/liberu-executive-insights-filament",
@@ -567,6 +583,14 @@
     "source_tree": "23e210c2e16d6c8878140767fa625dba289bfad6",
     "version": "1.5.1"
   },
+  "liberusoftware/module-liberu-platform-orchestration-api": {
+    "path": "modules/liberu-platform-orchestration-api",
+    "reference": "855355024f4026ec9a583017a3a3d388828b3583",
+    "repository": "https://github.com/liberusoftware/module-liberu-platform-orchestration-api",
+    "source_signature": "05f111f8b20147aa456eef31296ae2ce062cca98e55d4fd645629197e8ee24b9",
+    "source_tree": "3bded10166edfbe2ddce231d6af061c52c18fe72",
+    "version": "1.3.1"
+  },
   "liberusoftware/module-liberu-platform-orchestration-filament": {
     "path": "modules/liberu-platform-orchestration-filament",
     "reference": "e6cd0c0d092c30fff0f6d0d6267091cca21caa15",
@@ -590,6 +614,14 @@
     "source_signature": "9f041f5bd66083c19c65e1469ba989b4cb119a0b724b3359e035b9f97a96e7cd",
     "source_tree": "aadfa21e0a79344fea23ef65ec2768396a0c4e35",
     "version": "1.3.0"
+  },
+  "liberusoftware/module-liberu-revenue-and-care-orchestration-api": {
+    "path": "modules/liberu-revenue-and-care-orchestration-api",
+    "reference": "ba4f1da08b34dddc70862899fb8fdcd8db01102d",
+    "repository": "https://github.com/liberusoftware/module-liberu-revenue-and-care-orchestration-api",
+    "source_signature": "90f59d806fe7055b9e93e3ec63996753cd01684c5091da1f964b90675d3f4a36",
+    "source_tree": "288a852762d61e380a8885a511bb3a66c4839c17",
+    "version": "1.2.1"
   },
   "liberusoftware/module-liberu-revenue-and-care-orchestration-filament": {
     "path": "modules/liberu-revenue-and-care-orchestration-filament",
