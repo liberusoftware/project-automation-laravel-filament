@@ -2,7 +2,6 @@
 
 namespace App\Providers\Filament;
 
-use App\Filament\App\Pages\AccountSetupWizard;
 use App\Filament\ModulePlugins;
 use App\Support\ThemeColors;
 use Filament\Http\Middleware\Authenticate;
@@ -23,6 +22,7 @@ use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use Liberu\Foundation\ApplicationCore\Http\Middleware\SecurityHeaders;
 use Liberu\Foundation\Localization\Http\Middleware\SetLocale;
+use Liberu\Modules\Automation\AutomationCore\Filament\Pages\AccountSetupWizard;
 
 class AppPanelProvider extends PanelProvider
 {

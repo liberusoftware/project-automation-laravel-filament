@@ -3,6 +3,7 @@
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
+require_once __DIR__.'/Stubs/HostStubs.php';
 require_once dirname(__DIR__).'/modules/theme-support/tests/Fixtures/ComposerAvailability.php';
 
 pest()->extend(TestCase::class)
